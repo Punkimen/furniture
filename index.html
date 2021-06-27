@@ -9,6 +9,7 @@
 <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
 <link rel="stylesheet"
     href="https://cdnjs.cloudflare.com/ajax/libs/ion-rangeslider/2.3.1/css/ion.rangeSlider.min.css" />
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.css" />
 <link rel="stylesheet" href="css/vendor.min.css">
 <link rel="stylesheet" href="css/style.min.css">
 
@@ -192,191 +193,1370 @@
                             </div>
                         </div>
                         <div class="costum-select__body">
-                            <div class="costum-select__item" data-value="retail"><a href="">Все</a></div>
-                            <div class="costum-select__item" data-value="installments"><a href="">Кухни</a></div>
-                            <div class="costum-select__item" data-value="installments"><a href="">Диваны</a></div>
-                            <div class="costum-select__item" data-value="installments"><a href="">Гостиные</a></div>
-                            <div class="costum-select__item" data-value="installments"><a href="">Спальни</a></div>
-                            <div class="costum-select__item" data-value="installments"><a href="">Матрасы</a></div>
-                            <div class="costum-select__item" data-value="installments"><a href="">Шкафы</a></div>
+                            <div class="costum-select__item" data-value="retail"><span>Все</span></div>
+                            <div class="costum-select__item" data-value="installments"><span>Кухни</span></div>
+                            <div class="costum-select__item" data-value="installments"><span>Диваны</span></div>
+                            <div class="costum-select__item" data-value="installments"><span>Гостиные</span></div>
+                            <div class="costum-select__item" data-value="installments"><span>Спальни</span></div>
+                            <div class="costum-select__item" data-value="installments"><span>Матрасы</span></div>
+                            <div class="costum-select__item" data-value="installments"><span>Шкафы</span></div>
                         </div>
                     </div>
                 </div>
                 <nav class="recomended__nav">
                     <ul class="recomended__list">
-                        <li class="recomended__elem active"><a href="#" class="recomended__link">Все</a></li>
-                        <li class="recomended__elem"><a href="#" class="recomended__link">Кухни</a></li>
-                        <li class="recomended__elem"><a href="#" class="recomended__link">Диваны</a></li>
-                        <li class="recomended__elem"><a href="#" class="recomended__link">Гостиные</a></li>
-                        <li class="recomended__elem"><a href="#" class="recomended__link">Спальни</a></li>
-                        <li class="recomended__elem"><a href="#" class="recomended__link">Матрасы</a></li>
-                        <li class="recomended__elem"><a href="#" class="recomended__link">Шкафы</a></li>
+                        <li class="recomended__elem active"><span class="recomended__link">Все</span></li>
+                        <li class="recomended__elem"><span class="recomended__link">Кухни</span></li>
+                        <li class="recomended__elem"><span class="recomended__link">Диваны</span></li>
+                        <li class="recomended__elem"><span class="recomended__link">Гостиные</span></li>
+                        <li class="recomended__elem"><span class="recomended__link">Спальни</span></li>
+                        <li class="recomended__elem"><span class="recomended__link">Матрасы</span></li>
+                        <li class="recomended__elem"><span class="recomended__link">Шкафы</span></li>
                     </ul>
                 </nav>
-                <div class="recomended__arrows">
-                    <button class="recomended__arrow recomended__arrow--left btn-reset">
-                        <svg class="">
-                            <use xlink:href="./img/icons/icons.svg#right-arrow"></use>
-                        </svg>
-                    </button>
-                    <button class="recomended__arrow recomended__arrow--right btn-reset">
-                        <svg class="">
-                            <use xlink:href="./img/icons/icons.svg#right-arrow"></use>
-                        </svg>
-                    </button>
+            </div>
+        </div>
+        <div class="catalog-slider__slick catalog-slider__slick--selected current">
+            <div class="catalog-slider__slide">
+                <div class="example-products__product product-card product-card--cupboard">
+                    <img class="product-card__img" src="img/product_1.jpg" alt="">
+                    <div class="product-card__content">
+                        <div class="product-card__price">
+                            <div class="product-card__name">Спальня Бася - 04</div>
+                            <div class="product-card__summ">
+                                15000 <span>руб.</span>
+                            </div>
+                        </div>
+                        <div class="product-card__size">
+                            816*500*478 (1 шт.)
+                        </div>
+                        <div class="product-card__buy">
+                            <div class="product-card__quantity">
+                                <input class="quantity-num input-reset" type="text" value="1">
+                                <!--  <input class="quantity-num input-reset" type="text" value="1"> -->
+                                <button class="btn-reset product-card__btn"><span>+</span></button>
+                                <button class="btn-reset product-card__btn"><span>-</span></button>
+                            </div>
+                            <button class="product-card__basket btn-reset btn-basket">В корзину</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="catalog-slider__slide">
+                <div class="example-products__product product-card product-card--cupboard">
+                    <img class="product-card__img" src="img/product_1.jpg" alt="">
+                    <div class="product-card__content">
+                        <div class="product-card__price">
+                            <div class="product-card__name">Спальня Бася - 04</div>
+                            <div class="product-card__summ">
+                                15000 <span>руб.</span>
+                            </div>
+                        </div>
+                        <div class="product-card__size">
+                            816*500*478 (1 шт.)
+                        </div>
+                        <div class="product-card__buy">
+                            <div class="product-card__quantity">
+                                <input class="quantity-num input-reset" type="text" value="1">
+                                <button class="btn-reset product-card__btn"><span>+</span></button>
+                                <button class="btn-reset product-card__btn"><span>-</span></button>
+                            </div>
+                            <button class="product-card__basket btn-reset btn-basket">В корзину</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="catalog-slider__slide">
+                <div class="example-products__product product-card product-card--cupboard">
+                    <img class="product-card__img" src="img/product_1.jpg" alt="">
+                    <div class="product-card__content">
+                        <div class="product-card__price">
+                            <div class="product-card__name">Спальня Бася - 04</div>
+                            <div class="product-card__summ">
+                                15000 <span>руб.</span>
+                            </div>
+                        </div>
+                        <div class="product-card__size">
+                            816*500*478 (1 шт.)
+                        </div>
+                        <div class="product-card__buy">
+                            <div class="product-card__quantity">
+                                <input class="quantity-num input-reset" type="text" value="1">
+                                <button class="btn-reset product-card__btn"><span>+</span></button>
+                                <button class="btn-reset product-card__btn"><span>-</span></button>
+                            </div>
+                            <button class="product-card__basket btn-reset btn-basket">В корзину</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="catalog-slider__slide">
+                <div class="example-products__product product-card product-card--cupboard">
+                    <img class="product-card__img" src="img/product_1.jpg" alt="">
+                    <div class="product-card__content">
+                        <div class="product-card__price">
+                            <div class="product-card__name">Спальня Бася - 04</div>
+                            <div class="product-card__summ">
+                                15000 <span>руб.</span>
+                            </div>
+                        </div>
+                        <div class="product-card__size">
+                            816*500*478 (1 шт.)
+                        </div>
+                        <div class="product-card__buy">
+                            <div class="product-card__quantity">
+                                <input class="quantity-num input-reset" type="text" value="1">
+                                <button class="btn-reset product-card__btn"><span>+</span></button>
+                                <button class="btn-reset product-card__btn"><span>-</span></button>
+                            </div>
+                            <button class="product-card__basket btn-reset btn-basket">В корзину</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="catalog-slider__slide">
+                <div class="example-products__product product-card product-card--cupboard">
+                    <img class="product-card__img" src="img/product_1.jpg" alt="">
+                    <div class="product-card__content">
+                        <div class="product-card__price">
+                            <div class="product-card__name">Спальня Бася - 04</div>
+                            <div class="product-card__summ">
+                                15000 <span>руб.</span>
+                            </div>
+                        </div>
+                        <div class="product-card__size">
+                            816*500*478 (1 шт.)
+                        </div>
+                        <div class="product-card__buy">
+                            <div class="product-card__quantity">
+                                <input class="quantity-num input-reset" type="text" value="1">
+                                <button class="btn-reset product-card__btn"><span>+</span></button>
+                                <button class="btn-reset product-card__btn"><span>-</span></button>
+                            </div>
+                            <button class="product-card__basket btn-reset btn-basket">В корзину</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="catalog-slider__slide">
+                <div class="example-products__product product-card product-card--cupboard">
+                    <img class="product-card__img" src="img/product_1.jpg" alt="">
+                    <div class="product-card__content">
+                        <div class="product-card__price">
+                            <div class="product-card__name">Спальня Бася - 04</div>
+                            <div class="product-card__summ">
+                                15000 <span>руб.</span>
+                            </div>
+                        </div>
+                        <div class="product-card__size">
+                            816*500*478 (1 шт.)
+                        </div>
+                        <div class="product-card__buy">
+                            <div class="product-card__quantity">
+                                <input class="quantity-num input-reset" type="text" value="1">
+                                <button class="btn-reset product-card__btn"><span>+</span></button>
+                                <button class="btn-reset product-card__btn"><span>-</span></button>
+                            </div>
+                            <button class="product-card__basket btn-reset btn-basket">В корзину</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="catalog-slider__slide">
+                <div class="example-products__product product-card product-card--cupboard">
+                    <img class="product-card__img" src="img/product_1.jpg" alt="">
+                    <div class="product-card__content">
+                        <div class="product-card__price">
+                            <div class="product-card__name">Спальня Бася - 04</div>
+                            <div class="product-card__summ">
+                                15000 <span>руб.</span>
+                            </div>
+                        </div>
+                        <div class="product-card__size">
+                            816*500*478 (1 шт.)
+                        </div>
+                        <div class="product-card__buy">
+                            <div class="product-card__quantity">
+                                <input class="quantity-num input-reset" type="text" value="1">
+                                <button class="btn-reset product-card__btn"><span>+</span></button>
+                                <button class="btn-reset product-card__btn"><span>-</span></button>
+                            </div>
+                            <button class="product-card__basket btn-reset btn-basket">В корзину</button>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
-        <div class="recomended__catalog catalog">
-            <div class="recomended__product product-card">
-                <img class="product-card__img" src="img/product_1.jpg" alt="">
-                <div class="product-card__content">
-                    <div class="product-card__name">Спальня Бася - 04</div>
-                    <div class="product-card__price">
-                        <div class="product-card__select">
-                            <div class="costum-select">
-                                <div class="costum-select__header">
-                                    <span class="costum-select__current" data-current="latest">
-                                        В розницу
-                                    </span>
-                                    <div class="costum-select__icon">
-                                        <svg class="">
-                                            <use xlink:href="./img/icons/icons.svg#angle-arrow-down"></use>
-                                        </svg>
-                                    </div>
-                                </div>
-                                <div class="costum-select__body">
-                                    <div class="costum-select__item" data-value="retail">В розницу</div>
-                                    <div class="costum-select__item" data-value="installments">В рассрочку</div>
-                                </div>
+        <div class="catalog-slider__slick catalog-slider__slick--selected ">
+            <div class="catalog-slider__slide">
+                <div class="example-products__product product-card product-card--cupboard">
+                    <img class="product-card__img" src="img/product_1.jpg" alt="">
+                    <div class="product-card__content">
+                        <div class="product-card__price">
+                            <div class="product-card__name">Спальня Бася - 04</div>
+                            <div class="product-card__summ">
+                                15000 <span>руб.</span>
                             </div>
                         </div>
-                        <div class="product-card__summ">
-                            15000 <span>руб.</span>
+                        <div class="product-card__size">
+                            816*500*478 (1 шт.)
                         </div>
-                    </div>
-                    <div class="product-card__buy">
-                        <div class="product-card__quantity">
-                            <span class="quantity-num">1</span>
-                            <button class="btn-reset product-card__btn"><span>+</span></button>
-                            <button class="btn-reset product-card__btn"><span>-</span></button>
+                        <div class="product-card__buy">
+                            <div class="product-card__quantity">
+                                <input class="quantity-num input-reset" type="text" value="1">
+                                <button class="btn-reset product-card__btn"><span>+</span></button>
+                                <button class="btn-reset product-card__btn"><span>-</span></button>
+                            </div>
+                            <button class="product-card__basket btn-reset btn-basket">В корзину</button>
                         </div>
-                        <button class="product-card__basket btn-reset btn-basket">В корзину</button>
                     </div>
                 </div>
             </div>
-            <div class="recomended__product product-card">
-                <img class="product-card__img" src="img/product_1.jpg" alt="">
-                <div class="product-card__content">
-                    <div class="product-card__name">Спальня Бася - 04</div>
-                    <div class="product-card__price">
-                        <div class="product-card__select">
-                            <div class="costum-select">
-                                <div class="costum-select__header">
-                                    <span class="costum-select__current" data-current="latest">
-                                        В розницу
-                                    </span>
-                                    <div class="costum-select__icon">
-                                        <svg class="">
-                                            <use xlink:href="./img/icons/icons.svg#angle-arrow-down"></use>
-                                        </svg>
-                                    </div>
-                                </div>
-                                <div class="costum-select__body">
-                                    <div class="costum-select__item" data-value="retail">В розницу</div>
-                                    <div class="costum-select__item" data-value="installments">В рассрочку</div>
-                                </div>
+            <div class="catalog-slider__slide">
+                <div class="example-products__product product-card product-card--cupboard">
+                    <img class="product-card__img" src="img/product_1.jpg" alt="">
+                    <div class="product-card__content">
+                        <div class="product-card__price">
+                            <div class="product-card__name">Спальня Бася - 04</div>
+                            <div class="product-card__summ">
+                                15000 <span>руб.</span>
                             </div>
                         </div>
-                        <div class="product-card__summ">
-                            15000 <span>руб.</span>
+                        <div class="product-card__size">
+                            816*500*478 (1 шт.)
                         </div>
-                    </div>
-                    <div class="product-card__buy">
-                        <div class="product-card__quantity">
-                            <span class="quantity-num">1</span>
-                            <button class="btn-reset product-card__btn"><span>+</span></button>
-                            <button class="btn-reset product-card__btn"><span>-</span></button>
+                        <div class="product-card__buy">
+                            <div class="product-card__quantity">
+                                <input class="quantity-num input-reset" type="text" value="1">
+                                <button class="btn-reset product-card__btn"><span>+</span></button>
+                                <button class="btn-reset product-card__btn"><span>-</span></button>
+                            </div>
+                            <button class="product-card__basket btn-reset btn-basket">В корзину</button>
                         </div>
-                        <button class="product-card__basket btn-reset btn-basket">В корзину</button>
                     </div>
                 </div>
             </div>
-            <div class="recomended__product product-card">
-                <img class="product-card__img" src="img/product_1.jpg" alt="">
-                <div class="product-card__content">
-                    <div class="product-card__name">Спальня Бася - 04</div>
-                    <div class="product-card__price">
-                        <div class="product-card__select">
-                            <div class="costum-select">
-                                <div class="costum-select__header">
-                                    <span class="costum-select__current" data-current="latest">
-                                        В розницу
-                                    </span>
-                                    <div class="costum-select__icon">
-                                        <svg class="">
-                                            <use xlink:href="./img/icons/icons.svg#angle-arrow-down"></use>
-                                        </svg>
-                                    </div>
-                                </div>
-                                <div class="costum-select__body">
-                                    <div class="costum-select__item" data-value="retail">В розницу</div>
-                                    <div class="costum-select__item" data-value="installments">В рассрочку</div>
-                                </div>
+            <div class="catalog-slider__slide">
+                <div class="example-products__product product-card product-card--cupboard">
+                    <img class="product-card__img" src="img/product_1.jpg" alt="">
+                    <div class="product-card__content">
+                        <div class="product-card__price">
+                            <div class="product-card__name">Спальня Бася - 04</div>
+                            <div class="product-card__summ">
+                                15000 <span>руб.</span>
                             </div>
                         </div>
-                        <div class="product-card__summ">
-                            15000 <span>руб.</span>
+                        <div class="product-card__size">
+                            816*500*478 (1 шт.)
                         </div>
-                    </div>
-                    <div class="product-card__buy">
-                        <div class="product-card__quantity">
-                            <span class="quantity-num">1</span>
-                            <button class="btn-reset product-card__btn"><span>+</span></button>
-                            <button class="btn-reset product-card__btn"><span>-</span></button>
+                        <div class="product-card__buy">
+                            <div class="product-card__quantity">
+                                <input class="quantity-num input-reset" type="text" value="1">
+                                <button class="btn-reset product-card__btn"><span>+</span></button>
+                                <button class="btn-reset product-card__btn"><span>-</span></button>
+                            </div>
+                            <button class="product-card__basket btn-reset btn-basket">В корзину</button>
                         </div>
-                        <button class="product-card__basket btn-reset btn-basket">В корзину</button>
                     </div>
                 </div>
             </div>
-            <div class="recomended__product product-card">
-                <img class="product-card__img" src="img/product_1.jpg" alt="">
-                <div class="product-card__content">
-                    <div class="product-card__name">Спальня Бася - 04</div>
-                    <div class="product-card__price">
-                        <div class="product-card__select">
-                            <div class="costum-select">
-                                <div class="costum-select__header">
-                                    <span class="costum-select__current" data-current="latest">
-                                        В розницу
-                                    </span>
-                                    <div class="costum-select__icon">
-                                        <svg class="">
-                                            <use xlink:href="./img/icons/icons.svg#angle-arrow-down"></use>
-                                        </svg>
-                                    </div>
-                                </div>
-                                <div class="costum-select__body">
-                                    <div class="costum-select__item" data-value="retail">В розницу</div>
-                                    <div class="costum-select__item" data-value="installments">В рассрочку</div>
-                                </div>
+            <div class="catalog-slider__slide">
+                <div class="example-products__product product-card product-card--cupboard">
+                    <img class="product-card__img" src="img/product_1.jpg" alt="">
+                    <div class="product-card__content">
+                        <div class="product-card__price">
+                            <div class="product-card__name">Спальня Бася - 04</div>
+                            <div class="product-card__summ">
+                                15000 <span>руб.</span>
                             </div>
                         </div>
-                        <div class="product-card__summ">
-                            15000 <span>руб.</span>
+                        <div class="product-card__size">
+                            816*500*478 (1 шт.)
+                        </div>
+                        <div class="product-card__buy">
+                            <div class="product-card__quantity">
+                                <input class="quantity-num input-reset" type="text" value="1">
+                                <button class="btn-reset product-card__btn"><span>+</span></button>
+                                <button class="btn-reset product-card__btn"><span>-</span></button>
+                            </div>
+                            <button class="product-card__basket btn-reset btn-basket">В корзину</button>
                         </div>
                     </div>
-                    <div class="product-card__buy">
-                        <div class="product-card__quantity">
-                            <span class="quantity-num">1</span>
-                            <button class="btn-reset product-card__btn"><span>+</span></button>
-                            <button class="btn-reset product-card__btn"><span>-</span></button>
+                </div>
+            </div>
+            <div class="catalog-slider__slide">
+                <div class="example-products__product product-card product-card--cupboard">
+                    <img class="product-card__img" src="img/product_1.jpg" alt="">
+                    <div class="product-card__content">
+                        <div class="product-card__price">
+                            <div class="product-card__name">Спальня Бася - 04</div>
+                            <div class="product-card__summ">
+                                15000 <span>руб.</span>
+                            </div>
                         </div>
-                        <button class="product-card__basket btn-reset btn-basket">В корзину</button>
+                        <div class="product-card__size">
+                            816*500*478 (1 шт.)
+                        </div>
+                        <div class="product-card__buy">
+                            <div class="product-card__quantity">
+                                <input class="quantity-num input-reset" type="text" value="1">
+                                <button class="btn-reset product-card__btn"><span>+</span></button>
+                                <button class="btn-reset product-card__btn"><span>-</span></button>
+                            </div>
+                            <button class="product-card__basket btn-reset btn-basket">В корзину</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="catalog-slider__slide">
+                <div class="example-products__product product-card product-card--cupboard">
+                    <img class="product-card__img" src="img/product_1.jpg" alt="">
+                    <div class="product-card__content">
+                        <div class="product-card__price">
+                            <div class="product-card__name">Спальня Бася - 04</div>
+                            <div class="product-card__summ">
+                                15000 <span>руб.</span>
+                            </div>
+                        </div>
+                        <div class="product-card__size">
+                            816*500*478 (1 шт.)
+                        </div>
+                        <div class="product-card__buy">
+                            <div class="product-card__quantity">
+                                <input class="quantity-num input-reset" type="text" value="1">
+                                <button class="btn-reset product-card__btn"><span>+</span></button>
+                                <button class="btn-reset product-card__btn"><span>-</span></button>
+                            </div>
+                            <button class="product-card__basket btn-reset btn-basket">В корзину</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="catalog-slider__slide">
+                <div class="example-products__product product-card product-card--cupboard">
+                    <img class="product-card__img" src="img/product_1.jpg" alt="">
+                    <div class="product-card__content">
+                        <div class="product-card__price">
+                            <div class="product-card__name">Спальня Бася - 04</div>
+                            <div class="product-card__summ">
+                                15000 <span>руб.</span>
+                            </div>
+                        </div>
+                        <div class="product-card__size">
+                            816*500*478 (1 шт.)
+                        </div>
+                        <div class="product-card__buy">
+                            <div class="product-card__quantity">
+                                <input class="quantity-num input-reset" type="text" value="1">
+                                <button class="btn-reset product-card__btn"><span>+</span></button>
+                                <button class="btn-reset product-card__btn"><span>-</span></button>
+                            </div>
+                            <button class="product-card__basket btn-reset btn-basket">В корзину</button>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
+        <div class="catalog-slider__slick catalog-slider__slick--selected ">
+            <div class="catalog-slider__slide">
+                <div class="example-products__product product-card product-card--cupboard">
+                    <img class="product-card__img" src="img/product_1.jpg" alt="">
+                    <div class="product-card__content">
+                        <div class="product-card__price">
+                            <div class="product-card__name">Спальня Бася - 04</div>
+                            <div class="product-card__summ">
+                                15000 <span>руб.</span>
+                            </div>
+                        </div>
+                        <div class="product-card__size">
+                            816*500*478 (1 шт.)
+                        </div>
+                        <div class="product-card__buy">
+                            <div class="product-card__quantity">
+                                <input class="quantity-num input-reset" type="text" value="1">
+                                <button class="btn-reset product-card__btn"><span>+</span></button>
+                                <button class="btn-reset product-card__btn"><span>-</span></button>
+                            </div>
+                            <button class="product-card__basket btn-reset btn-basket">В корзину</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="catalog-slider__slide">
+                <div class="example-products__product product-card product-card--cupboard">
+                    <img class="product-card__img" src="img/product_1.jpg" alt="">
+                    <div class="product-card__content">
+                        <div class="product-card__price">
+                            <div class="product-card__name">Спальня Бася - 04</div>
+                            <div class="product-card__summ">
+                                15000 <span>руб.</span>
+                            </div>
+                        </div>
+                        <div class="product-card__size">
+                            816*500*478 (1 шт.)
+                        </div>
+                        <div class="product-card__buy">
+                            <div class="product-card__quantity">
+                                <input class="quantity-num input-reset" type="text" value="1">
+                                <button class="btn-reset product-card__btn"><span>+</span></button>
+                                <button class="btn-reset product-card__btn"><span>-</span></button>
+                            </div>
+                            <button class="product-card__basket btn-reset btn-basket">В корзину</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="catalog-slider__slide">
+                <div class="example-products__product product-card product-card--cupboard">
+                    <img class="product-card__img" src="img/product_1.jpg" alt="">
+                    <div class="product-card__content">
+                        <div class="product-card__price">
+                            <div class="product-card__name">Спальня Бася - 04</div>
+                            <div class="product-card__summ">
+                                15000 <span>руб.</span>
+                            </div>
+                        </div>
+                        <div class="product-card__size">
+                            816*500*478 (1 шт.)
+                        </div>
+                        <div class="product-card__buy">
+                            <div class="product-card__quantity">
+                                <input class="quantity-num input-reset" type="text" value="1">
+                                <button class="btn-reset product-card__btn"><span>+</span></button>
+                                <button class="btn-reset product-card__btn"><span>-</span></button>
+                            </div>
+                            <button class="product-card__basket btn-reset btn-basket">В корзину</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="catalog-slider__slide">
+                <div class="example-products__product product-card product-card--cupboard">
+                    <img class="product-card__img" src="img/product_1.jpg" alt="">
+                    <div class="product-card__content">
+                        <div class="product-card__price">
+                            <div class="product-card__name">Спальня Бася - 04</div>
+                            <div class="product-card__summ">
+                                15000 <span>руб.</span>
+                            </div>
+                        </div>
+                        <div class="product-card__size">
+                            816*500*478 (1 шт.)
+                        </div>
+                        <div class="product-card__buy">
+                            <div class="product-card__quantity">
+                                <input class="quantity-num input-reset" type="text" value="1">
+                                <button class="btn-reset product-card__btn"><span>+</span></button>
+                                <button class="btn-reset product-card__btn"><span>-</span></button>
+                            </div>
+                            <button class="product-card__basket btn-reset btn-basket">В корзину</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="catalog-slider__slide">
+                <div class="example-products__product product-card product-card--cupboard">
+                    <img class="product-card__img" src="img/product_1.jpg" alt="">
+                    <div class="product-card__content">
+                        <div class="product-card__price">
+                            <div class="product-card__name">Спальня Бася - 04</div>
+                            <div class="product-card__summ">
+                                15000 <span>руб.</span>
+                            </div>
+                        </div>
+                        <div class="product-card__size">
+                            816*500*478 (1 шт.)
+                        </div>
+                        <div class="product-card__buy">
+                            <div class="product-card__quantity">
+                                <input class="quantity-num input-reset" type="text" value="1">
+                                <button class="btn-reset product-card__btn"><span>+</span></button>
+                                <button class="btn-reset product-card__btn"><span>-</span></button>
+                            </div>
+                            <button class="product-card__basket btn-reset btn-basket">В корзину</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="catalog-slider__slide">
+                <div class="example-products__product product-card product-card--cupboard">
+                    <img class="product-card__img" src="img/product_1.jpg" alt="">
+                    <div class="product-card__content">
+                        <div class="product-card__price">
+                            <div class="product-card__name">Спальня Бася - 04</div>
+                            <div class="product-card__summ">
+                                15000 <span>руб.</span>
+                            </div>
+                        </div>
+                        <div class="product-card__size">
+                            816*500*478 (1 шт.)
+                        </div>
+                        <div class="product-card__buy">
+                            <div class="product-card__quantity">
+                                <input class="quantity-num input-reset" type="text" value="1">
+                                <button class="btn-reset product-card__btn"><span>+</span></button>
+                                <button class="btn-reset product-card__btn"><span>-</span></button>
+                            </div>
+                            <button class="product-card__basket btn-reset btn-basket">В корзину</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="catalog-slider__slide">
+                <div class="example-products__product product-card product-card--cupboard">
+                    <img class="product-card__img" src="img/product_1.jpg" alt="">
+                    <div class="product-card__content">
+                        <div class="product-card__price">
+                            <div class="product-card__name">Спальня Бася - 04</div>
+                            <div class="product-card__summ">
+                                15000 <span>руб.</span>
+                            </div>
+                        </div>
+                        <div class="product-card__size">
+                            816*500*478 (1 шт.)
+                        </div>
+                        <div class="product-card__buy">
+                            <div class="product-card__quantity">
+                                <input class="quantity-num input-reset" type="text" value="1">
+                                <button class="btn-reset product-card__btn"><span>+</span></button>
+                                <button class="btn-reset product-card__btn"><span>-</span></button>
+                            </div>
+                            <button class="product-card__basket btn-reset btn-basket">В корзину</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="catalog-slider__slick catalog-slider__slick--selected ">
+            <div class="catalog-slider__slide">
+                <div class="example-products__product product-card product-card--cupboard">
+                    <img class="product-card__img" src="img/product_1.jpg" alt="">
+                    <div class="product-card__content">
+                        <div class="product-card__price">
+                            <div class="product-card__name">Спальня Бася - 04</div>
+                            <div class="product-card__summ">
+                                15000 <span>руб.</span>
+                            </div>
+                        </div>
+                        <div class="product-card__size">
+                            816*500*478 (1 шт.)
+                        </div>
+                        <div class="product-card__buy">
+                            <div class="product-card__quantity">
+                                <input class="quantity-num input-reset" type="text" value="1">
+                                <button class="btn-reset product-card__btn"><span>+</span></button>
+                                <button class="btn-reset product-card__btn"><span>-</span></button>
+                            </div>
+                            <button class="product-card__basket btn-reset btn-basket">В корзину</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="catalog-slider__slide">
+                <div class="example-products__product product-card product-card--cupboard">
+                    <img class="product-card__img" src="img/product_1.jpg" alt="">
+                    <div class="product-card__content">
+                        <div class="product-card__price">
+                            <div class="product-card__name">Спальня Бася - 04</div>
+                            <div class="product-card__summ">
+                                15000 <span>руб.</span>
+                            </div>
+                        </div>
+                        <div class="product-card__size">
+                            816*500*478 (1 шт.)
+                        </div>
+                        <div class="product-card__buy">
+                            <div class="product-card__quantity">
+                                <input class="quantity-num input-reset" type="text" value="1">
+                                <button class="btn-reset product-card__btn"><span>+</span></button>
+                                <button class="btn-reset product-card__btn"><span>-</span></button>
+                            </div>
+                            <button class="product-card__basket btn-reset btn-basket">В корзину</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="catalog-slider__slide">
+                <div class="example-products__product product-card product-card--cupboard">
+                    <img class="product-card__img" src="img/product_1.jpg" alt="">
+                    <div class="product-card__content">
+                        <div class="product-card__price">
+                            <div class="product-card__name">Спальня Бася - 04</div>
+                            <div class="product-card__summ">
+                                15000 <span>руб.</span>
+                            </div>
+                        </div>
+                        <div class="product-card__size">
+                            816*500*478 (1 шт.)
+                        </div>
+                        <div class="product-card__buy">
+                            <div class="product-card__quantity">
+                                <input class="quantity-num input-reset" type="text" value="1">
+                                <button class="btn-reset product-card__btn"><span>+</span></button>
+                                <button class="btn-reset product-card__btn"><span>-</span></button>
+                            </div>
+                            <button class="product-card__basket btn-reset btn-basket">В корзину</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="catalog-slider__slide">
+                <div class="example-products__product product-card product-card--cupboard">
+                    <img class="product-card__img" src="img/product_1.jpg" alt="">
+                    <div class="product-card__content">
+                        <div class="product-card__price">
+                            <div class="product-card__name">Спальня Бася - 04</div>
+                            <div class="product-card__summ">
+                                15000 <span>руб.</span>
+                            </div>
+                        </div>
+                        <div class="product-card__size">
+                            816*500*478 (1 шт.)
+                        </div>
+                        <div class="product-card__buy">
+                            <div class="product-card__quantity">
+                                <input class="quantity-num input-reset" type="text" value="1">
+                                <button class="btn-reset product-card__btn"><span>+</span></button>
+                                <button class="btn-reset product-card__btn"><span>-</span></button>
+                            </div>
+                            <button class="product-card__basket btn-reset btn-basket">В корзину</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="catalog-slider__slide">
+                <div class="example-products__product product-card product-card--cupboard">
+                    <img class="product-card__img" src="img/product_1.jpg" alt="">
+                    <div class="product-card__content">
+                        <div class="product-card__price">
+                            <div class="product-card__name">Спальня Бася - 04</div>
+                            <div class="product-card__summ">
+                                15000 <span>руб.</span>
+                            </div>
+                        </div>
+                        <div class="product-card__size">
+                            816*500*478 (1 шт.)
+                        </div>
+                        <div class="product-card__buy">
+                            <div class="product-card__quantity">
+                                <input class="quantity-num input-reset" type="text" value="1">
+                                <button class="btn-reset product-card__btn"><span>+</span></button>
+                                <button class="btn-reset product-card__btn"><span>-</span></button>
+                            </div>
+                            <button class="product-card__basket btn-reset btn-basket">В корзину</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="catalog-slider__slide">
+                <div class="example-products__product product-card product-card--cupboard">
+                    <img class="product-card__img" src="img/product_1.jpg" alt="">
+                    <div class="product-card__content">
+                        <div class="product-card__price">
+                            <div class="product-card__name">Спальня Бася - 04</div>
+                            <div class="product-card__summ">
+                                15000 <span>руб.</span>
+                            </div>
+                        </div>
+                        <div class="product-card__size">
+                            816*500*478 (1 шт.)
+                        </div>
+                        <div class="product-card__buy">
+                            <div class="product-card__quantity">
+                                <input class="quantity-num input-reset" type="text" value="1">
+                                <button class="btn-reset product-card__btn"><span>+</span></button>
+                                <button class="btn-reset product-card__btn"><span>-</span></button>
+                            </div>
+                            <button class="product-card__basket btn-reset btn-basket">В корзину</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="catalog-slider__slide">
+                <div class="example-products__product product-card product-card--cupboard">
+                    <img class="product-card__img" src="img/product_1.jpg" alt="">
+                    <div class="product-card__content">
+                        <div class="product-card__price">
+                            <div class="product-card__name">Спальня Бася - 04</div>
+                            <div class="product-card__summ">
+                                15000 <span>руб.</span>
+                            </div>
+                        </div>
+                        <div class="product-card__size">
+                            816*500*478 (1 шт.)
+                        </div>
+                        <div class="product-card__buy">
+                            <div class="product-card__quantity">
+                                <input class="quantity-num input-reset" type="text" value="1">
+                                <button class="btn-reset product-card__btn"><span>+</span></button>
+                                <button class="btn-reset product-card__btn"><span>-</span></button>
+                            </div>
+                            <button class="product-card__basket btn-reset btn-basket">В корзину</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="catalog-slider__slick catalog-slider__slick--selected ">
+            <div class="catalog-slider__slide">
+                <div class="example-products__product product-card product-card--cupboard">
+                    <img class="product-card__img" src="img/product_1.jpg" alt="">
+                    <div class="product-card__content">
+                        <div class="product-card__price">
+                            <div class="product-card__name">Спальня Бася - 04</div>
+                            <div class="product-card__summ">
+                                15000 <span>руб.</span>
+                            </div>
+                        </div>
+                        <div class="product-card__size">
+                            816*500*478 (1 шт.)
+                        </div>
+                        <div class="product-card__buy">
+                            <div class="product-card__quantity">
+                                <input class="quantity-num input-reset" type="text" value="1">
+                                <button class="btn-reset product-card__btn"><span>+</span></button>
+                                <button class="btn-reset product-card__btn"><span>-</span></button>
+                            </div>
+                            <button class="product-card__basket btn-reset btn-basket">В корзину</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="catalog-slider__slide">
+                <div class="example-products__product product-card product-card--cupboard">
+                    <img class="product-card__img" src="img/product_1.jpg" alt="">
+                    <div class="product-card__content">
+                        <div class="product-card__price">
+                            <div class="product-card__name">Спальня Бася - 04</div>
+                            <div class="product-card__summ">
+                                15000 <span>руб.</span>
+                            </div>
+                        </div>
+                        <div class="product-card__size">
+                            816*500*478 (1 шт.)
+                        </div>
+                        <div class="product-card__buy">
+                            <div class="product-card__quantity">
+                                <input class="quantity-num input-reset" type="text" value="1">
+                                <button class="btn-reset product-card__btn"><span>+</span></button>
+                                <button class="btn-reset product-card__btn"><span>-</span></button>
+                            </div>
+                            <button class="product-card__basket btn-reset btn-basket">В корзину</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="catalog-slider__slide">
+                <div class="example-products__product product-card product-card--cupboard">
+                    <img class="product-card__img" src="img/product_1.jpg" alt="">
+                    <div class="product-card__content">
+                        <div class="product-card__price">
+                            <div class="product-card__name">Спальня Бася - 04</div>
+                            <div class="product-card__summ">
+                                15000 <span>руб.</span>
+                            </div>
+                        </div>
+                        <div class="product-card__size">
+                            816*500*478 (1 шт.)
+                        </div>
+                        <div class="product-card__buy">
+                            <div class="product-card__quantity">
+                                <input class="quantity-num input-reset" type="text" value="1">
+                                <button class="btn-reset product-card__btn"><span>+</span></button>
+                                <button class="btn-reset product-card__btn"><span>-</span></button>
+                            </div>
+                            <button class="product-card__basket btn-reset btn-basket">В корзину</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="catalog-slider__slide">
+                <div class="example-products__product product-card product-card--cupboard">
+                    <img class="product-card__img" src="img/product_1.jpg" alt="">
+                    <div class="product-card__content">
+                        <div class="product-card__price">
+                            <div class="product-card__name">Спальня Бася - 04</div>
+                            <div class="product-card__summ">
+                                15000 <span>руб.</span>
+                            </div>
+                        </div>
+                        <div class="product-card__size">
+                            816*500*478 (1 шт.)
+                        </div>
+                        <div class="product-card__buy">
+                            <div class="product-card__quantity">
+                                <input class="quantity-num input-reset" type="text" value="1">
+                                <button class="btn-reset product-card__btn"><span>+</span></button>
+                                <button class="btn-reset product-card__btn"><span>-</span></button>
+                            </div>
+                            <button class="product-card__basket btn-reset btn-basket">В корзину</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="catalog-slider__slide">
+                <div class="example-products__product product-card product-card--cupboard">
+                    <img class="product-card__img" src="img/product_1.jpg" alt="">
+                    <div class="product-card__content">
+                        <div class="product-card__price">
+                            <div class="product-card__name">Спальня Бася - 04</div>
+                            <div class="product-card__summ">
+                                15000 <span>руб.</span>
+                            </div>
+                        </div>
+                        <div class="product-card__size">
+                            816*500*478 (1 шт.)
+                        </div>
+                        <div class="product-card__buy">
+                            <div class="product-card__quantity">
+                                <input class="quantity-num input-reset" type="text" value="1">
+                                <button class="btn-reset product-card__btn"><span>+</span></button>
+                                <button class="btn-reset product-card__btn"><span>-</span></button>
+                            </div>
+                            <button class="product-card__basket btn-reset btn-basket">В корзину</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="catalog-slider__slide">
+                <div class="example-products__product product-card product-card--cupboard">
+                    <img class="product-card__img" src="img/product_1.jpg" alt="">
+                    <div class="product-card__content">
+                        <div class="product-card__price">
+                            <div class="product-card__name">Спальня Бася - 04</div>
+                            <div class="product-card__summ">
+                                15000 <span>руб.</span>
+                            </div>
+                        </div>
+                        <div class="product-card__size">
+                            816*500*478 (1 шт.)
+                        </div>
+                        <div class="product-card__buy">
+                            <div class="product-card__quantity">
+                                <input class="quantity-num input-reset" type="text" value="1">
+                                <button class="btn-reset product-card__btn"><span>+</span></button>
+                                <button class="btn-reset product-card__btn"><span>-</span></button>
+                            </div>
+                            <button class="product-card__basket btn-reset btn-basket">В корзину</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="catalog-slider__slide">
+                <div class="example-products__product product-card product-card--cupboard">
+                    <img class="product-card__img" src="img/product_1.jpg" alt="">
+                    <div class="product-card__content">
+                        <div class="product-card__price">
+                            <div class="product-card__name">Спальня Бася - 04</div>
+                            <div class="product-card__summ">
+                                15000 <span>руб.</span>
+                            </div>
+                        </div>
+                        <div class="product-card__size">
+                            816*500*478 (1 шт.)
+                        </div>
+                        <div class="product-card__buy">
+                            <div class="product-card__quantity">
+                                <input class="quantity-num input-reset" type="text" value="1">
+                                <button class="btn-reset product-card__btn"><span>+</span></button>
+                                <button class="btn-reset product-card__btn"><span>-</span></button>
+                            </div>
+                            <button class="product-card__basket btn-reset btn-basket">В корзину</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="catalog-slider__slick catalog-slider__slick--selected ">
+            <div class="catalog-slider__slide">
+                <div class="example-products__product product-card product-card--cupboard">
+                    <img class="product-card__img" src="img/product_1.jpg" alt="">
+                    <div class="product-card__content">
+                        <div class="product-card__price">
+                            <div class="product-card__name">Спальня Бася - 04</div>
+                            <div class="product-card__summ">
+                                15000 <span>руб.</span>
+                            </div>
+                        </div>
+                        <div class="product-card__size">
+                            816*500*478 (1 шт.)
+                        </div>
+                        <div class="product-card__buy">
+                            <div class="product-card__quantity">
+                                <input class="quantity-num input-reset" type="text" value="1">
+                                <button class="btn-reset product-card__btn"><span>+</span></button>
+                                <button class="btn-reset product-card__btn"><span>-</span></button>
+                            </div>
+                            <button class="product-card__basket btn-reset btn-basket">В корзину</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="catalog-slider__slide">
+                <div class="example-products__product product-card product-card--cupboard">
+                    <img class="product-card__img" src="img/product_1.jpg" alt="">
+                    <div class="product-card__content">
+                        <div class="product-card__price">
+                            <div class="product-card__name">Спальня Бася - 04</div>
+                            <div class="product-card__summ">
+                                15000 <span>руб.</span>
+                            </div>
+                        </div>
+                        <div class="product-card__size">
+                            816*500*478 (1 шт.)
+                        </div>
+                        <div class="product-card__buy">
+                            <div class="product-card__quantity">
+                                <input class="quantity-num input-reset" type="text" value="1">
+                                <button class="btn-reset product-card__btn"><span>+</span></button>
+                                <button class="btn-reset product-card__btn"><span>-</span></button>
+                            </div>
+                            <button class="product-card__basket btn-reset btn-basket">В корзину</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="catalog-slider__slide">
+                <div class="example-products__product product-card product-card--cupboard">
+                    <img class="product-card__img" src="img/product_1.jpg" alt="">
+                    <div class="product-card__content">
+                        <div class="product-card__price">
+                            <div class="product-card__name">Спальня Бася - 04</div>
+                            <div class="product-card__summ">
+                                15000 <span>руб.</span>
+                            </div>
+                        </div>
+                        <div class="product-card__size">
+                            816*500*478 (1 шт.)
+                        </div>
+                        <div class="product-card__buy">
+                            <div class="product-card__quantity">
+                                <input class="quantity-num input-reset" type="text" value="1">
+                                <button class="btn-reset product-card__btn"><span>+</span></button>
+                                <button class="btn-reset product-card__btn"><span>-</span></button>
+                            </div>
+                            <button class="product-card__basket btn-reset btn-basket">В корзину</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="catalog-slider__slide">
+                <div class="example-products__product product-card product-card--cupboard">
+                    <img class="product-card__img" src="img/product_1.jpg" alt="">
+                    <div class="product-card__content">
+                        <div class="product-card__price">
+                            <div class="product-card__name">Спальня Бася - 04</div>
+                            <div class="product-card__summ">
+                                15000 <span>руб.</span>
+                            </div>
+                        </div>
+                        <div class="product-card__size">
+                            816*500*478 (1 шт.)
+                        </div>
+                        <div class="product-card__buy">
+                            <div class="product-card__quantity">
+                                <input class="quantity-num input-reset" type="text" value="1">
+                                <button class="btn-reset product-card__btn"><span>+</span></button>
+                                <button class="btn-reset product-card__btn"><span>-</span></button>
+                            </div>
+                            <button class="product-card__basket btn-reset btn-basket">В корзину</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="catalog-slider__slide">
+                <div class="example-products__product product-card product-card--cupboard">
+                    <img class="product-card__img" src="img/product_1.jpg" alt="">
+                    <div class="product-card__content">
+                        <div class="product-card__price">
+                            <div class="product-card__name">Спальня Бася - 04</div>
+                            <div class="product-card__summ">
+                                15000 <span>руб.</span>
+                            </div>
+                        </div>
+                        <div class="product-card__size">
+                            816*500*478 (1 шт.)
+                        </div>
+                        <div class="product-card__buy">
+                            <div class="product-card__quantity">
+                                <input class="quantity-num input-reset" type="text" value="1">
+                                <button class="btn-reset product-card__btn"><span>+</span></button>
+                                <button class="btn-reset product-card__btn"><span>-</span></button>
+                            </div>
+                            <button class="product-card__basket btn-reset btn-basket">В корзину</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="catalog-slider__slide">
+                <div class="example-products__product product-card product-card--cupboard">
+                    <img class="product-card__img" src="img/product_1.jpg" alt="">
+                    <div class="product-card__content">
+                        <div class="product-card__price">
+                            <div class="product-card__name">Спальня Бася - 04</div>
+                            <div class="product-card__summ">
+                                15000 <span>руб.</span>
+                            </div>
+                        </div>
+                        <div class="product-card__size">
+                            816*500*478 (1 шт.)
+                        </div>
+                        <div class="product-card__buy">
+                            <div class="product-card__quantity">
+                                <input class="quantity-num input-reset" type="text" value="1">
+                                <button class="btn-reset product-card__btn"><span>+</span></button>
+                                <button class="btn-reset product-card__btn"><span>-</span></button>
+                            </div>
+                            <button class="product-card__basket btn-reset btn-basket">В корзину</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="catalog-slider__slide">
+                <div class="example-products__product product-card product-card--cupboard">
+                    <img class="product-card__img" src="img/product_1.jpg" alt="">
+                    <div class="product-card__content">
+                        <div class="product-card__price">
+                            <div class="product-card__name">Спальня Бася - 04</div>
+                            <div class="product-card__summ">
+                                15000 <span>руб.</span>
+                            </div>
+                        </div>
+                        <div class="product-card__size">
+                            816*500*478 (1 шт.)
+                        </div>
+                        <div class="product-card__buy">
+                            <div class="product-card__quantity">
+                                <input class="quantity-num input-reset" type="text" value="1">
+                                <button class="btn-reset product-card__btn"><span>+</span></button>
+                                <button class="btn-reset product-card__btn"><span>-</span></button>
+                            </div>
+                            <button class="product-card__basket btn-reset btn-basket">В корзину</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="catalog-slider__slick catalog-slider__slick--selected ">
+            <div class="catalog-slider__slide">
+                <div class="example-products__product product-card product-card--cupboard">
+                    <img class="product-card__img" src="img/product_1.jpg" alt="">
+                    <div class="product-card__content">
+                        <div class="product-card__price">
+                            <div class="product-card__name">Спальня Бася - 04</div>
+                            <div class="product-card__summ">
+                                15000 <span>руб.</span>
+                            </div>
+                        </div>
+                        <div class="product-card__size">
+                            816*500*478 (1 шт.)
+                        </div>
+                        <div class="product-card__buy">
+                            <div class="product-card__quantity">
+                                <input class="quantity-num input-reset" type="text" value="1">
+                                <button class="btn-reset product-card__btn"><span>+</span></button>
+                                <button class="btn-reset product-card__btn"><span>-</span></button>
+                            </div>
+                            <button class="product-card__basket btn-reset btn-basket">В корзину</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="catalog-slider__slide">
+                <div class="example-products__product product-card product-card--cupboard">
+                    <img class="product-card__img" src="img/product_1.jpg" alt="">
+                    <div class="product-card__content">
+                        <div class="product-card__price">
+                            <div class="product-card__name">Спальня Бася - 04</div>
+                            <div class="product-card__summ">
+                                15000 <span>руб.</span>
+                            </div>
+                        </div>
+                        <div class="product-card__size">
+                            816*500*478 (1 шт.)
+                        </div>
+                        <div class="product-card__buy">
+                            <div class="product-card__quantity">
+                                <input class="quantity-num input-reset" type="text" value="1">
+                                <button class="btn-reset product-card__btn"><span>+</span></button>
+                                <button class="btn-reset product-card__btn"><span>-</span></button>
+                            </div>
+                            <button class="product-card__basket btn-reset btn-basket">В корзину</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="catalog-slider__slide">
+                <div class="example-products__product product-card product-card--cupboard">
+                    <img class="product-card__img" src="img/product_1.jpg" alt="">
+                    <div class="product-card__content">
+                        <div class="product-card__price">
+                            <div class="product-card__name">Спальня Бася - 04</div>
+                            <div class="product-card__summ">
+                                15000 <span>руб.</span>
+                            </div>
+                        </div>
+                        <div class="product-card__size">
+                            816*500*478 (1 шт.)
+                        </div>
+                        <div class="product-card__buy">
+                            <div class="product-card__quantity">
+                                <input class="quantity-num input-reset" type="text" value="1">
+                                <button class="btn-reset product-card__btn"><span>+</span></button>
+                                <button class="btn-reset product-card__btn"><span>-</span></button>
+                            </div>
+                            <button class="product-card__basket btn-reset btn-basket">В корзину</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="catalog-slider__slide">
+                <div class="example-products__product product-card product-card--cupboard">
+                    <img class="product-card__img" src="img/product_1.jpg" alt="">
+                    <div class="product-card__content">
+                        <div class="product-card__price">
+                            <div class="product-card__name">Спальня Бася - 04</div>
+                            <div class="product-card__summ">
+                                15000 <span>руб.</span>
+                            </div>
+                        </div>
+                        <div class="product-card__size">
+                            816*500*478 (1 шт.)
+                        </div>
+                        <div class="product-card__buy">
+                            <div class="product-card__quantity">
+                                <input class="quantity-num input-reset" type="text" value="1">
+                                <button class="btn-reset product-card__btn"><span>+</span></button>
+                                <button class="btn-reset product-card__btn"><span>-</span></button>
+                            </div>
+                            <button class="product-card__basket btn-reset btn-basket">В корзину</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="catalog-slider__slide">
+                <div class="example-products__product product-card product-card--cupboard">
+                    <img class="product-card__img" src="img/product_1.jpg" alt="">
+                    <div class="product-card__content">
+                        <div class="product-card__price">
+                            <div class="product-card__name">Спальня Бася - 04</div>
+                            <div class="product-card__summ">
+                                15000 <span>руб.</span>
+                            </div>
+                        </div>
+                        <div class="product-card__size">
+                            816*500*478 (1 шт.)
+                        </div>
+                        <div class="product-card__buy">
+                            <div class="product-card__quantity">
+                                <input class="quantity-num input-reset" type="text" value="1">
+                                <button class="btn-reset product-card__btn"><span>+</span></button>
+                                <button class="btn-reset product-card__btn"><span>-</span></button>
+                            </div>
+                            <button class="product-card__basket btn-reset btn-basket">В корзину</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="catalog-slider__slide">
+                <div class="example-products__product product-card product-card--cupboard">
+                    <img class="product-card__img" src="img/product_1.jpg" alt="">
+                    <div class="product-card__content">
+                        <div class="product-card__price">
+                            <div class="product-card__name">Спальня Бася - 04</div>
+                            <div class="product-card__summ">
+                                15000 <span>руб.</span>
+                            </div>
+                        </div>
+                        <div class="product-card__size">
+                            816*500*478 (1 шт.)
+                        </div>
+                        <div class="product-card__buy">
+                            <div class="product-card__quantity">
+                                <input class="quantity-num input-reset" type="text" value="1">
+                                <button class="btn-reset product-card__btn"><span>+</span></button>
+                                <button class="btn-reset product-card__btn"><span>-</span></button>
+                            </div>
+                            <button class="product-card__basket btn-reset btn-basket">В корзину</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="catalog-slider__slide">
+                <div class="example-products__product product-card product-card--cupboard">
+                    <img class="product-card__img" src="img/product_1.jpg" alt="">
+                    <div class="product-card__content">
+                        <div class="product-card__price">
+                            <div class="product-card__name">Спальня Бася - 04</div>
+                            <div class="product-card__summ">
+                                15000 <span>руб.</span>
+                            </div>
+                        </div>
+                        <div class="product-card__size">
+                            816*500*478 (1 шт.)
+                        </div>
+                        <div class="product-card__buy">
+                            <div class="product-card__quantity">
+                                <input class="quantity-num input-reset" type="text" value="1">
+                                <button class="btn-reset product-card__btn"><span>+</span></button>
+                                <button class="btn-reset product-card__btn"><span>-</span></button>
+                            </div>
+                            <button class="product-card__basket btn-reset btn-basket">В корзину</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- <div class="recomended__catalog catalog">
+            <div class="recomended__product product-card">
+                <img class="product-card__img" src="img/product_1.jpg" alt="">
+                <div class="product-card__content">
+                    <div class="product-card__name">Спальня Бася - 04</div>
+                    <div class="product-card__price">
+                        <div class="product-card__select">
+                            <div class="costum-select">
+                                <div class="costum-select__header">
+                                    <span class="costum-select__current" data-current="latest">
+                                        В розницу
+                                    </span>
+                                    <div class="costum-select__icon">
+                                        <svg class="">
+                                            <use xlink:href="./img/icons/icons.svg#angle-arrow-down"></use>
+                                        </svg>
+                                    </div>
+                                </div>
+                                <div class="costum-select__body">
+                                    <div class="costum-select__item" data-value="retail">В розницу</div>
+                                    <div class="costum-select__item" data-value="installments">В рассрочку</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="product-card__summ">
+                            15000 <span>руб.</span>
+                        </div>
+                    </div>
+                    <div class="product-card__buy">
+                        <div class="product-card__quantity">
+                             <input class="quantity-num input-reset" type="text" value="1">
+                            <button class="btn-reset product-card__btn"><span>+</span></button>
+                            <button class="btn-reset product-card__btn"><span>-</span></button>
+                        </div>
+                        <button class="product-card__basket btn-reset btn-basket">В корзину</button>
+                    </div>
+                </div>
+            </div>
+            <div class="recomended__product product-card">
+                <img class="product-card__img" src="img/product_1.jpg" alt="">
+                <div class="product-card__content">
+                    <div class="product-card__name">Спальня Бася - 04</div>
+                    <div class="product-card__price">
+                        <div class="product-card__select">
+                            <div class="costum-select">
+                                <div class="costum-select__header">
+                                    <span class="costum-select__current" data-current="latest">
+                                        В розницу
+                                    </span>
+                                    <div class="costum-select__icon">
+                                        <svg class="">
+                                            <use xlink:href="./img/icons/icons.svg#angle-arrow-down"></use>
+                                        </svg>
+                                    </div>
+                                </div>
+                                <div class="costum-select__body">
+                                    <div class="costum-select__item" data-value="retail">В розницу</div>
+                                    <div class="costum-select__item" data-value="installments">В рассрочку</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="product-card__summ">
+                            15000 <span>руб.</span>
+                        </div>
+                    </div>
+                    <div class="product-card__buy">
+                        <div class="product-card__quantity">
+                             <input class="quantity-num input-reset" type="text" value="1">
+                            <button class="btn-reset product-card__btn"><span>+</span></button>
+                            <button class="btn-reset product-card__btn"><span>-</span></button>
+                        </div>
+                        <button class="product-card__basket btn-reset btn-basket">В корзину</button>
+                    </div>
+                </div>
+            </div>
+            <div class="recomended__product product-card">
+                <img class="product-card__img" src="img/product_1.jpg" alt="">
+                <div class="product-card__content">
+                    <div class="product-card__name">Спальня Бася - 04</div>
+                    <div class="product-card__price">
+                        <div class="product-card__select">
+                            <div class="costum-select">
+                                <div class="costum-select__header">
+                                    <span class="costum-select__current" data-current="latest">
+                                        В розницу
+                                    </span>
+                                    <div class="costum-select__icon">
+                                        <svg class="">
+                                            <use xlink:href="./img/icons/icons.svg#angle-arrow-down"></use>
+                                        </svg>
+                                    </div>
+                                </div>
+                                <div class="costum-select__body">
+                                    <div class="costum-select__item" data-value="retail">В розницу</div>
+                                    <div class="costum-select__item" data-value="installments">В рассрочку</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="product-card__summ">
+                            15000 <span>руб.</span>
+                        </div>
+                    </div>
+                    <div class="product-card__buy">
+                        <div class="product-card__quantity">
+                             <input class="quantity-num input-reset" type="text" value="1">
+                            <button class="btn-reset product-card__btn"><span>+</span></button>
+                            <button class="btn-reset product-card__btn"><span>-</span></button>
+                        </div>
+                        <button class="product-card__basket btn-reset btn-basket">В корзину</button>
+                    </div>
+                </div>
+            </div>
+            <div class="recomended__product product-card">
+                <img class="product-card__img" src="img/product_1.jpg" alt="">
+                <div class="product-card__content">
+                    <div class="product-card__name">Спальня Бася - 04</div>
+                    <div class="product-card__price">
+                        <div class="product-card__select">
+                            <div class="costum-select">
+                                <div class="costum-select__header">
+                                    <span class="costum-select__current" data-current="latest">
+                                        В розницу
+                                    </span>
+                                    <div class="costum-select__icon">
+                                        <svg class="">
+                                            <use xlink:href="./img/icons/icons.svg#angle-arrow-down"></use>
+                                        </svg>
+                                    </div>
+                                </div>
+                                <div class="costum-select__body">
+                                    <div class="costum-select__item" data-value="retail">В розницу</div>
+                                    <div class="costum-select__item" data-value="installments">В рассрочку</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="product-card__summ">
+                            15000 <span>руб.</span>
+                        </div>
+                    </div>
+                    <div class="product-card__buy">
+                        <div class="product-card__quantity">
+                             <input class="quantity-num input-reset" type="text" value="1">
+                            <button class="btn-reset product-card__btn"><span>+</span></button>
+                            <button class="btn-reset product-card__btn"><span>-</span></button>
+                        </div>
+                        <button class="product-card__basket btn-reset btn-basket">В корзину</button>
+                    </div>
+                </div>
+            </div>
+        </div> -->
     </div>
 </section>
             <section class="banner">
@@ -423,187 +1603,1215 @@
                             </div>
                         </div>
                         <div class="costum-select__body">
-                            <div class="costum-select__item" data-value="retail"><a href="">Все</a></div>
-                            <div class="costum-select__item" data-value="installments"><a href="">Кухни</a></div>
-                            <div class="costum-select__item" data-value="installments"><a href="">Диваны</a></div>
-                            <div class="costum-select__item" data-value="installments"><a href="">Гостиные</a></div>
-                            <div class="costum-select__item" data-value="installments"><a href="">Спальни</a></div>
-                            <div class="costum-select__item" data-value="installments"><a href="">Матрасы</a></div>
-                            <div class="costum-select__item" data-value="installments"><a href="">Шкафы</a></div>
+                            <div class="costum-select__item" data-value="retail"><span>Все</span></div>
+                            <div class="costum-select__item" data-value="installments"><span>Кухни</span></div>
+                            <div class="costum-select__item" data-value="installments"><span>Диваны</span></div>
+                            <div class="costum-select__item" data-value="installments"><span>Гостиные</span></div>
+                            <div class="costum-select__item" data-value="installments"><span>Спальни</span></div>
+                            <div class="costum-select__item" data-value="installments"><span>Матрасы</span></div>
+                            <div class="costum-select__item" data-value="installments"><span>Шкафы</span></div>
                         </div>
                     </div>
                 </div>
                 <nav class="recomended__nav">
                     <ul class="recomended__list">
-                        <li class="recomended__elem active"><a href="#" class="recomended__link">Все</a></li>
-                        <li class="recomended__elem"><a href="#" class="recomended__link">Кухни</a></li>
-                        <li class="recomended__elem"><a href="#" class="recomended__link">Диваны</a></li>
-                        <li class="recomended__elem"><a href="#" class="recomended__link">Гостиные</a></li>
-                        <li class="recomended__elem"><a href="#" class="recomended__link">Спальни</a></li>
-                        <li class="recomended__elem"><a href="#" class="recomended__link">Матрасы</a></li>
-                        <li class="recomended__elem"><a href="#" class="recomended__link">Шкафы</a></li>
+                        <li class="recomended__elem active"><span class="recomended__link">Все</span></li>
+                        <li class="recomended__elem"><span class="recomended__link">Кухни</span></li>
+                        <li class="recomended__elem"><span class="recomended__link">Диваны</span></li>
+                        <li class="recomended__elem"><span class="recomended__link">Гостиные</span></li>
+                        <li class="recomended__elem"><span class="recomended__link">Спальни</span></li>
+                        <li class="recomended__elem"><span class="recomended__link">Матрасы</span></li>
+                        <li class="recomended__elem"><span class="recomended__link">Шкафы</span></li>
                     </ul>
                 </nav>
             </div>
-            <div class="recomended__arrows">
-                <button class="recomended__arrow recomended__arrow--left btn-reset">
-                    <svg class="">
-                        <use xlink:href="./img/icons/icons.svg#right-arrow"></use>
-                    </svg>
-                </button>
-                <button class="recomended__arrow recomended__arrow--right btn-reset">
-                    <svg class="">
-                        <use xlink:href="./img/icons/icons.svg#right-arrow"></use>
-                    </svg>
-                </button>
+        </div>
+        <div class="catalog-slider__slick catalog-slider__slick--selected current">
+            <div class="catalog-slider__slide">
+                <div class="example-products__product product-card product-card--cupboard">
+                    <img class="product-card__img" src="img/product_1.jpg" alt="">
+                    <div class="product-card__content">
+                        <div class="product-card__price">
+                            <div class="product-card__name">Спальня Бася - 04</div>
+                            <div class="product-card__summ">
+                                15000 <span>руб.</span>
+                            </div>
+                        </div>
+                        <div class="product-card__size">
+                            816*500*478 (1 шт.)
+                        </div>
+                        <div class="product-card__buy">
+                            <div class="product-card__quantity">
+                                <input class="quantity-num input-reset" type="text" value="1">
+                                <button class="btn-reset product-card__btn"><span>+</span></button>
+                                <button class="btn-reset product-card__btn"><span>-</span></button>
+                            </div>
+                            <button class="product-card__basket btn-reset btn-basket">В корзину</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="catalog-slider__slide">
+                <div class="example-products__product product-card product-card--cupboard">
+                    <img class="product-card__img" src="img/product_1.jpg" alt="">
+                    <div class="product-card__content">
+                        <div class="product-card__price">
+                            <div class="product-card__name">Спальня Бася - 04</div>
+                            <div class="product-card__summ">
+                                15000 <span>руб.</span>
+                            </div>
+                        </div>
+                        <div class="product-card__size">
+                            816*500*478 (1 шт.)
+                        </div>
+                        <div class="product-card__buy">
+                            <div class="product-card__quantity">
+                                <input class="quantity-num input-reset" type="text" value="1">
+                                <button class="btn-reset product-card__btn"><span>+</span></button>
+                                <button class="btn-reset product-card__btn"><span>-</span></button>
+                            </div>
+                            <button class="product-card__basket btn-reset btn-basket">В корзину</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="catalog-slider__slide">
+                <div class="example-products__product product-card product-card--cupboard">
+                    <img class="product-card__img" src="img/product_1.jpg" alt="">
+                    <div class="product-card__content">
+                        <div class="product-card__price">
+                            <div class="product-card__name">Спальня Бася - 04</div>
+                            <div class="product-card__summ">
+                                15000 <span>руб.</span>
+                            </div>
+                        </div>
+                        <div class="product-card__size">
+                            816*500*478 (1 шт.)
+                        </div>
+                        <div class="product-card__buy">
+                            <div class="product-card__quantity">
+                                <input class="quantity-num input-reset" type="text" value="1">
+                                <button class="btn-reset product-card__btn"><span>+</span></button>
+                                <button class="btn-reset product-card__btn"><span>-</span></button>
+                            </div>
+                            <button class="product-card__basket btn-reset btn-basket">В корзину</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="catalog-slider__slide">
+                <div class="example-products__product product-card product-card--cupboard">
+                    <img class="product-card__img" src="img/product_1.jpg" alt="">
+                    <div class="product-card__content">
+                        <div class="product-card__price">
+                            <div class="product-card__name">Спальня Бася - 04</div>
+                            <div class="product-card__summ">
+                                15000 <span>руб.</span>
+                            </div>
+                        </div>
+                        <div class="product-card__size">
+                            816*500*478 (1 шт.)
+                        </div>
+                        <div class="product-card__buy">
+                            <div class="product-card__quantity">
+                                <input class="quantity-num input-reset" type="text" value="1">
+                                <button class="btn-reset product-card__btn"><span>+</span></button>
+                                <button class="btn-reset product-card__btn"><span>-</span></button>
+                            </div>
+                            <button class="product-card__basket btn-reset btn-basket">В корзину</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="catalog-slider__slide">
+                <div class="example-products__product product-card product-card--cupboard">
+                    <img class="product-card__img" src="img/product_1.jpg" alt="">
+                    <div class="product-card__content">
+                        <div class="product-card__price">
+                            <div class="product-card__name">Спальня Бася - 04</div>
+                            <div class="product-card__summ">
+                                15000 <span>руб.</span>
+                            </div>
+                        </div>
+                        <div class="product-card__size">
+                            816*500*478 (1 шт.)
+                        </div>
+                        <div class="product-card__buy">
+                            <div class="product-card__quantity">
+                                <input class="quantity-num input-reset" type="text" value="1">
+                                <button class="btn-reset product-card__btn"><span>+</span></button>
+                                <button class="btn-reset product-card__btn"><span>-</span></button>
+                            </div>
+                            <button class="product-card__basket btn-reset btn-basket">В корзину</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="catalog-slider__slide">
+                <div class="example-products__product product-card product-card--cupboard">
+                    <img class="product-card__img" src="img/product_1.jpg" alt="">
+                    <div class="product-card__content">
+                        <div class="product-card__price">
+                            <div class="product-card__name">Спальня Бася - 04</div>
+                            <div class="product-card__summ">
+                                15000 <span>руб.</span>
+                            </div>
+                        </div>
+                        <div class="product-card__size">
+                            816*500*478 (1 шт.)
+                        </div>
+                        <div class="product-card__buy">
+                            <div class="product-card__quantity">
+                                <input class="quantity-num input-reset" type="text" value="1">
+                                <button class="btn-reset product-card__btn"><span>+</span></button>
+                                <button class="btn-reset product-card__btn"><span>-</span></button>
+                            </div>
+                            <button class="product-card__basket btn-reset btn-basket">В корзину</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="catalog-slider__slide">
+                <div class="example-products__product product-card product-card--cupboard">
+                    <img class="product-card__img" src="img/product_1.jpg" alt="">
+                    <div class="product-card__content">
+                        <div class="product-card__price">
+                            <div class="product-card__name">Спальня Бася - 04</div>
+                            <div class="product-card__summ">
+                                15000 <span>руб.</span>
+                            </div>
+                        </div>
+                        <div class="product-card__size">
+                            816*500*478 (1 шт.)
+                        </div>
+                        <div class="product-card__buy">
+                            <div class="product-card__quantity">
+                                <input class="quantity-num input-reset" type="text" value="1">
+                                <button class="btn-reset product-card__btn"><span>+</span></button>
+                                <button class="btn-reset product-card__btn"><span>-</span></button>
+                            </div>
+                            <button class="product-card__basket btn-reset btn-basket">В корзину</button>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
-        <div class="recomended__catalog catalog">
-            <div class="recomended__product product-card">
-                <img class="product-card__img" src="img/product_1.jpg" alt="">
-                <div class="product-card__content">
-                    <div class="product-card__name">Спальня Бася - 04</div>
-                    <div class="product-card__price">
-                        <div class="product-card__select">
-                            <div class="costum-select">
-                                <div class="costum-select__header">
-                                    <span class="costum-select__current" data-current="latest">
-                                        В розницу
-                                    </span>
-                                    <div class="costum-select__icon">
-                                        <svg class="">
-                                            <use xlink:href="./img/icons/icons.svg#angle-arrow-down"></use>
-                                        </svg>
-                                    </div>
-                                </div>
-                                <div class="costum-select__body">
-                                    <div class="costum-select__item" data-value="retail">В розницу</div>
-                                    <div class="costum-select__item" data-value="installments">В рассрочку</div>
-                                </div>
+        <div class="catalog-slider__slick catalog-slider__slick--selected ">
+            <div class="catalog-slider__slide">
+                <div class="example-products__product product-card product-card--cupboard">
+                    <img class="product-card__img" src="img/product_1.jpg" alt="">
+                    <div class="product-card__content">
+                        <div class="product-card__price">
+                            <div class="product-card__name">Спальня Бася - 04</div>
+                            <div class="product-card__summ">
+                                15000 <span>руб.</span>
                             </div>
                         </div>
-                        <div class="product-card__summ">
-                            15000 <span>руб.</span>
+                        <div class="product-card__size">
+                            816*500*478 (1 шт.)
                         </div>
-                    </div>
-                    <div class="product-card__buy">
-                        <div class="product-card__quantity">
-                            <span class="quantity-num">1</span>
-                            <button class="btn-reset product-card__btn"><span>+</span></button>
-                            <button class="btn-reset product-card__btn"><span>-</span></button>
+                        <div class="product-card__buy">
+                            <div class="product-card__quantity">
+                                <input class="quantity-num input-reset" type="text" value="1">
+                                <button class="btn-reset product-card__btn"><span>+</span></button>
+                                <button class="btn-reset product-card__btn"><span>-</span></button>
+                            </div>
+                            <button class="product-card__basket btn-reset btn-basket">В корзину</button>
                         </div>
-                        <button class="product-card__basket btn-reset btn-basket">В корзину</button>
                     </div>
                 </div>
             </div>
-            <div class="recomended__product product-card">
-                <img class="product-card__img" src="img/product_1.jpg" alt="">
-                <div class="product-card__content">
-                    <div class="product-card__name">Спальня Бася - 04</div>
-                    <div class="product-card__price">
-                        <div class="product-card__select">
-                            <div class="costum-select">
-                                <div class="costum-select__header">
-                                    <span class="costum-select__current" data-current="latest">
-                                        В розницу
-                                    </span>
-                                    <div class="costum-select__icon">
-                                        <svg class="">
-                                            <use xlink:href="./img/icons/icons.svg#angle-arrow-down"></use>
-                                        </svg>
-                                    </div>
-                                </div>
-                                <div class="costum-select__body">
-                                    <div class="costum-select__item" data-value="retail">В розницу</div>
-                                    <div class="costum-select__item" data-value="installments">В рассрочку</div>
-                                </div>
+            <div class="catalog-slider__slide">
+                <div class="example-products__product product-card product-card--cupboard">
+                    <img class="product-card__img" src="img/product_1.jpg" alt="">
+                    <div class="product-card__content">
+                        <div class="product-card__price">
+                            <div class="product-card__name">Спальня Бася - 04</div>
+                            <div class="product-card__summ">
+                                15000 <span>руб.</span>
                             </div>
                         </div>
-                        <div class="product-card__summ">
-                            15000 <span>руб.</span>
+                        <div class="product-card__size">
+                            816*500*478 (1 шт.)
                         </div>
-                    </div>
-                    <div class="product-card__buy">
-                        <div class="product-card__quantity">
-                            <span class="quantity-num">1</span>
-                            <button class="btn-reset product-card__btn"><span>+</span></button>
-                            <button class="btn-reset product-card__btn"><span>-</span></button>
+                        <div class="product-card__buy">
+                            <div class="product-card__quantity">
+                                <input class="quantity-num input-reset" type="text" value="1">
+                                <button class="btn-reset product-card__btn"><span>+</span></button>
+                                <button class="btn-reset product-card__btn"><span>-</span></button>
+                            </div>
+                            <button class="product-card__basket btn-reset btn-basket">В корзину</button>
                         </div>
-                        <button class="product-card__basket btn-reset btn-basket">В корзину</button>
                     </div>
                 </div>
             </div>
-            <div class="recomended__product product-card">
-                <img class="product-card__img" src="img/product_1.jpg" alt="">
-                <div class="product-card__content">
-                    <div class="product-card__name">Спальня Бася - 04</div>
-                    <div class="product-card__price">
-                        <div class="product-card__select">
-                            <div class="costum-select">
-                                <div class="costum-select__header">
-                                    <span class="costum-select__current" data-current="latest">
-                                        В розницу
-                                    </span>
-                                    <div class="costum-select__icon">
-                                        <svg class="">
-                                            <use xlink:href="./img/icons/icons.svg#angle-arrow-down"></use>
-                                        </svg>
-                                    </div>
-                                </div>
-                                <div class="costum-select__body">
-                                    <div class="costum-select__item" data-value="retail">В розницу</div>
-                                    <div class="costum-select__item" data-value="installments">В рассрочку</div>
-                                </div>
+            <div class="catalog-slider__slide">
+                <div class="example-products__product product-card product-card--cupboard">
+                    <img class="product-card__img" src="img/product_1.jpg" alt="">
+                    <div class="product-card__content">
+                        <div class="product-card__price">
+                            <div class="product-card__name">Спальня Бася - 04</div>
+                            <div class="product-card__summ">
+                                15000 <span>руб.</span>
                             </div>
                         </div>
-                        <div class="product-card__summ">
-                            15000 <span>руб.</span>
+                        <div class="product-card__size">
+                            816*500*478 (1 шт.)
                         </div>
-                    </div>
-                    <div class="product-card__buy">
-                        <div class="product-card__quantity">
-                            <span class="quantity-num">1</span>
-                            <button class="btn-reset product-card__btn"><span>+</span></button>
-                            <button class="btn-reset product-card__btn"><span>-</span></button>
+                        <div class="product-card__buy">
+                            <div class="product-card__quantity">
+                                <input class="quantity-num input-reset" type="text" value="1">
+                                <button class="btn-reset product-card__btn"><span>+</span></button>
+                                <button class="btn-reset product-card__btn"><span>-</span></button>
+                            </div>
+                            <button class="product-card__basket btn-reset btn-basket">В корзину</button>
                         </div>
-                        <button class="product-card__basket btn-reset btn-basket">В корзину</button>
                     </div>
                 </div>
             </div>
-            <div class="recomended__product product-card">
-                <img class="product-card__img" src="img/product_1.jpg" alt="">
-                <div class="product-card__content">
-                    <div class="product-card__name">Спальня Бася - 04</div>
-                    <div class="product-card__price">
-                        <div class="product-card__select">
-                            <div class="costum-select">
-                                <div class="costum-select__header">
-                                    <span class="costum-select__current" data-current="latest">
-                                        В розницу
-                                    </span>
-                                    <div class="costum-select__icon">
-                                        <svg class="">
-                                            <use xlink:href="./img/icons/icons.svg#angle-arrow-down"></use>
-                                        </svg>
-                                    </div>
-                                </div>
-                                <div class="costum-select__body">
-                                    <div class="costum-select__item" data-value="retail">В розницу</div>
-                                    <div class="costum-select__item" data-value="installments">В рассрочку</div>
-                                </div>
+            <div class="catalog-slider__slide">
+                <div class="example-products__product product-card product-card--cupboard">
+                    <img class="product-card__img" src="img/product_1.jpg" alt="">
+                    <div class="product-card__content">
+                        <div class="product-card__price">
+                            <div class="product-card__name">Спальня Бася - 04</div>
+                            <div class="product-card__summ">
+                                15000 <span>руб.</span>
                             </div>
                         </div>
-                        <div class="product-card__summ">
-                            15000 <span>руб.</span>
+                        <div class="product-card__size">
+                            816*500*478 (1 шт.)
+                        </div>
+                        <div class="product-card__buy">
+                            <div class="product-card__quantity">
+                                <input class="quantity-num input-reset" type="text" value="1">
+                                <button class="btn-reset product-card__btn"><span>+</span></button>
+                                <button class="btn-reset product-card__btn"><span>-</span></button>
+                            </div>
+                            <button class="product-card__basket btn-reset btn-basket">В корзину</button>
                         </div>
                     </div>
-                    <div class="product-card__buy">
-                        <div class="product-card__quantity">
-                            <span class="quantity-num">1</span>
-                            <button class="btn-reset product-card__btn"><span>+</span></button>
-                            <button class="btn-reset product-card__btn"><span>-</span></button>
+                </div>
+            </div>
+            <div class="catalog-slider__slide">
+                <div class="example-products__product product-card product-card--cupboard">
+                    <img class="product-card__img" src="img/product_1.jpg" alt="">
+                    <div class="product-card__content">
+                        <div class="product-card__price">
+                            <div class="product-card__name">Спальня Бася - 04</div>
+                            <div class="product-card__summ">
+                                15000 <span>руб.</span>
+                            </div>
                         </div>
-                        <button class="product-card__basket btn-reset btn-basket">В корзину</button>
+                        <div class="product-card__size">
+                            816*500*478 (1 шт.)
+                        </div>
+                        <div class="product-card__buy">
+                            <div class="product-card__quantity">
+                                <input class="quantity-num input-reset" type="text" value="1">
+                                <button class="btn-reset product-card__btn"><span>+</span></button>
+                                <button class="btn-reset product-card__btn"><span>-</span></button>
+                            </div>
+                            <button class="product-card__basket btn-reset btn-basket">В корзину</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="catalog-slider__slide">
+                <div class="example-products__product product-card product-card--cupboard">
+                    <img class="product-card__img" src="img/product_1.jpg" alt="">
+                    <div class="product-card__content">
+                        <div class="product-card__price">
+                            <div class="product-card__name">Спальня Бася - 04</div>
+                            <div class="product-card__summ">
+                                15000 <span>руб.</span>
+                            </div>
+                        </div>
+                        <div class="product-card__size">
+                            816*500*478 (1 шт.)
+                        </div>
+                        <div class="product-card__buy">
+                            <div class="product-card__quantity">
+                                <input class="quantity-num input-reset" type="text" value="1">
+                                <button class="btn-reset product-card__btn"><span>+</span></button>
+                                <button class="btn-reset product-card__btn"><span>-</span></button>
+                            </div>
+                            <button class="product-card__basket btn-reset btn-basket">В корзину</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="catalog-slider__slide">
+                <div class="example-products__product product-card product-card--cupboard">
+                    <img class="product-card__img" src="img/product_1.jpg" alt="">
+                    <div class="product-card__content">
+                        <div class="product-card__price">
+                            <div class="product-card__name">Спальня Бася - 04</div>
+                            <div class="product-card__summ">
+                                15000 <span>руб.</span>
+                            </div>
+                        </div>
+                        <div class="product-card__size">
+                            816*500*478 (1 шт.)
+                        </div>
+                        <div class="product-card__buy">
+                            <div class="product-card__quantity">
+                                <input class="quantity-num input-reset" type="text" value="1">
+                                <button class="btn-reset product-card__btn"><span>+</span></button>
+                                <button class="btn-reset product-card__btn"><span>-</span></button>
+                            </div>
+                            <button class="product-card__basket btn-reset btn-basket">В корзину</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="catalog-slider__slick catalog-slider__slick--selected ">
+            <div class="catalog-slider__slide">
+                <div class="example-products__product product-card product-card--cupboard">
+                    <img class="product-card__img" src="img/product_1.jpg" alt="">
+                    <div class="product-card__content">
+                        <div class="product-card__price">
+                            <div class="product-card__name">Спальня Бася - 04</div>
+                            <div class="product-card__summ">
+                                15000 <span>руб.</span>
+                            </div>
+                        </div>
+                        <div class="product-card__size">
+                            816*500*478 (1 шт.)
+                        </div>
+                        <div class="product-card__buy">
+                            <div class="product-card__quantity">
+                                <input class="quantity-num input-reset" type="text" value="1">
+                                <button class="btn-reset product-card__btn"><span>+</span></button>
+                                <button class="btn-reset product-card__btn"><span>-</span></button>
+                            </div>
+                            <button class="product-card__basket btn-reset btn-basket">В корзину</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="catalog-slider__slide">
+                <div class="example-products__product product-card product-card--cupboard">
+                    <img class="product-card__img" src="img/product_1.jpg" alt="">
+                    <div class="product-card__content">
+                        <div class="product-card__price">
+                            <div class="product-card__name">Спальня Бася - 04</div>
+                            <div class="product-card__summ">
+                                15000 <span>руб.</span>
+                            </div>
+                        </div>
+                        <div class="product-card__size">
+                            816*500*478 (1 шт.)
+                        </div>
+                        <div class="product-card__buy">
+                            <div class="product-card__quantity">
+                                <input class="quantity-num input-reset" type="text" value="1">
+                                <button class="btn-reset product-card__btn"><span>+</span></button>
+                                <button class="btn-reset product-card__btn"><span>-</span></button>
+                            </div>
+                            <button class="product-card__basket btn-reset btn-basket">В корзину</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="catalog-slider__slide">
+                <div class="example-products__product product-card product-card--cupboard">
+                    <img class="product-card__img" src="img/product_1.jpg" alt="">
+                    <div class="product-card__content">
+                        <div class="product-card__price">
+                            <div class="product-card__name">Спальня Бася - 04</div>
+                            <div class="product-card__summ">
+                                15000 <span>руб.</span>
+                            </div>
+                        </div>
+                        <div class="product-card__size">
+                            816*500*478 (1 шт.)
+                        </div>
+                        <div class="product-card__buy">
+                            <div class="product-card__quantity">
+                                <input class="quantity-num input-reset" type="text" value="1">
+                                <button class="btn-reset product-card__btn"><span>+</span></button>
+                                <button class="btn-reset product-card__btn"><span>-</span></button>
+                            </div>
+                            <button class="product-card__basket btn-reset btn-basket">В корзину</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="catalog-slider__slide">
+                <div class="example-products__product product-card product-card--cupboard">
+                    <img class="product-card__img" src="img/product_1.jpg" alt="">
+                    <div class="product-card__content">
+                        <div class="product-card__price">
+                            <div class="product-card__name">Спальня Бася - 04</div>
+                            <div class="product-card__summ">
+                                15000 <span>руб.</span>
+                            </div>
+                        </div>
+                        <div class="product-card__size">
+                            816*500*478 (1 шт.)
+                        </div>
+                        <div class="product-card__buy">
+                            <div class="product-card__quantity">
+                                <input class="quantity-num input-reset" type="text" value="1">
+                                <button class="btn-reset product-card__btn"><span>+</span></button>
+                                <button class="btn-reset product-card__btn"><span>-</span></button>
+                            </div>
+                            <button class="product-card__basket btn-reset btn-basket">В корзину</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="catalog-slider__slide">
+                <div class="example-products__product product-card product-card--cupboard">
+                    <img class="product-card__img" src="img/product_1.jpg" alt="">
+                    <div class="product-card__content">
+                        <div class="product-card__price">
+                            <div class="product-card__name">Спальня Бася - 04</div>
+                            <div class="product-card__summ">
+                                15000 <span>руб.</span>
+                            </div>
+                        </div>
+                        <div class="product-card__size">
+                            816*500*478 (1 шт.)
+                        </div>
+                        <div class="product-card__buy">
+                            <div class="product-card__quantity">
+                                <input class="quantity-num input-reset" type="text" value="1">
+                                <button class="btn-reset product-card__btn"><span>+</span></button>
+                                <button class="btn-reset product-card__btn"><span>-</span></button>
+                            </div>
+                            <button class="product-card__basket btn-reset btn-basket">В корзину</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="catalog-slider__slide">
+                <div class="example-products__product product-card product-card--cupboard">
+                    <img class="product-card__img" src="img/product_1.jpg" alt="">
+                    <div class="product-card__content">
+                        <div class="product-card__price">
+                            <div class="product-card__name">Спальня Бася - 04</div>
+                            <div class="product-card__summ">
+                                15000 <span>руб.</span>
+                            </div>
+                        </div>
+                        <div class="product-card__size">
+                            816*500*478 (1 шт.)
+                        </div>
+                        <div class="product-card__buy">
+                            <div class="product-card__quantity">
+                                <input class="quantity-num input-reset" type="text" value="1">
+                                <button class="btn-reset product-card__btn"><span>+</span></button>
+                                <button class="btn-reset product-card__btn"><span>-</span></button>
+                            </div>
+                            <button class="product-card__basket btn-reset btn-basket">В корзину</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="catalog-slider__slide">
+                <div class="example-products__product product-card product-card--cupboard">
+                    <img class="product-card__img" src="img/product_1.jpg" alt="">
+                    <div class="product-card__content">
+                        <div class="product-card__price">
+                            <div class="product-card__name">Спальня Бася - 04</div>
+                            <div class="product-card__summ">
+                                15000 <span>руб.</span>
+                            </div>
+                        </div>
+                        <div class="product-card__size">
+                            816*500*478 (1 шт.)
+                        </div>
+                        <div class="product-card__buy">
+                            <div class="product-card__quantity">
+                                <input class="quantity-num input-reset" type="text" value="1">
+                                <button class="btn-reset product-card__btn"><span>+</span></button>
+                                <button class="btn-reset product-card__btn"><span>-</span></button>
+                            </div>
+                            <button class="product-card__basket btn-reset btn-basket">В корзину</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="catalog-slider__slick catalog-slider__slick--selected ">
+            <div class="catalog-slider__slide">
+                <div class="example-products__product product-card product-card--cupboard">
+                    <img class="product-card__img" src="img/product_1.jpg" alt="">
+                    <div class="product-card__content">
+                        <div class="product-card__price">
+                            <div class="product-card__name">Спальня Бася - 04</div>
+                            <div class="product-card__summ">
+                                15000 <span>руб.</span>
+                            </div>
+                        </div>
+                        <div class="product-card__size">
+                            816*500*478 (1 шт.)
+                        </div>
+                        <div class="product-card__buy">
+                            <div class="product-card__quantity">
+                                <input class="quantity-num input-reset" type="text" value="1">
+                                <button class="btn-reset product-card__btn"><span>+</span></button>
+                                <button class="btn-reset product-card__btn"><span>-</span></button>
+                            </div>
+                            <button class="product-card__basket btn-reset btn-basket">В корзину</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="catalog-slider__slide">
+                <div class="example-products__product product-card product-card--cupboard">
+                    <img class="product-card__img" src="img/product_1.jpg" alt="">
+                    <div class="product-card__content">
+                        <div class="product-card__price">
+                            <div class="product-card__name">Спальня Бася - 04</div>
+                            <div class="product-card__summ">
+                                15000 <span>руб.</span>
+                            </div>
+                        </div>
+                        <div class="product-card__size">
+                            816*500*478 (1 шт.)
+                        </div>
+                        <div class="product-card__buy">
+                            <div class="product-card__quantity">
+                                <input class="quantity-num input-reset" type="text" value="1">
+                                <button class="btn-reset product-card__btn"><span>+</span></button>
+                                <button class="btn-reset product-card__btn"><span>-</span></button>
+                            </div>
+                            <button class="product-card__basket btn-reset btn-basket">В корзину</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="catalog-slider__slide">
+                <div class="example-products__product product-card product-card--cupboard">
+                    <img class="product-card__img" src="img/product_1.jpg" alt="">
+                    <div class="product-card__content">
+                        <div class="product-card__price">
+                            <div class="product-card__name">Спальня Бася - 04</div>
+                            <div class="product-card__summ">
+                                15000 <span>руб.</span>
+                            </div>
+                        </div>
+                        <div class="product-card__size">
+                            816*500*478 (1 шт.)
+                        </div>
+                        <div class="product-card__buy">
+                            <div class="product-card__quantity">
+                                <input class="quantity-num input-reset" type="text" value="1">
+                                <button class="btn-reset product-card__btn"><span>+</span></button>
+                                <button class="btn-reset product-card__btn"><span>-</span></button>
+                            </div>
+                            <button class="product-card__basket btn-reset btn-basket">В корзину</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="catalog-slider__slide">
+                <div class="example-products__product product-card product-card--cupboard">
+                    <img class="product-card__img" src="img/product_1.jpg" alt="">
+                    <div class="product-card__content">
+                        <div class="product-card__price">
+                            <div class="product-card__name">Спальня Бася - 04</div>
+                            <div class="product-card__summ">
+                                15000 <span>руб.</span>
+                            </div>
+                        </div>
+                        <div class="product-card__size">
+                            816*500*478 (1 шт.)
+                        </div>
+                        <div class="product-card__buy">
+                            <div class="product-card__quantity">
+                                <input class="quantity-num input-reset" type="text" value="1">
+                                <button class="btn-reset product-card__btn"><span>+</span></button>
+                                <button class="btn-reset product-card__btn"><span>-</span></button>
+                            </div>
+                            <button class="product-card__basket btn-reset btn-basket">В корзину</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="catalog-slider__slide">
+                <div class="example-products__product product-card product-card--cupboard">
+                    <img class="product-card__img" src="img/product_1.jpg" alt="">
+                    <div class="product-card__content">
+                        <div class="product-card__price">
+                            <div class="product-card__name">Спальня Бася - 04</div>
+                            <div class="product-card__summ">
+                                15000 <span>руб.</span>
+                            </div>
+                        </div>
+                        <div class="product-card__size">
+                            816*500*478 (1 шт.)
+                        </div>
+                        <div class="product-card__buy">
+                            <div class="product-card__quantity">
+                                <input class="quantity-num input-reset" type="text" value="1">
+                                <button class="btn-reset product-card__btn"><span>+</span></button>
+                                <button class="btn-reset product-card__btn"><span>-</span></button>
+                            </div>
+                            <button class="product-card__basket btn-reset btn-basket">В корзину</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="catalog-slider__slide">
+                <div class="example-products__product product-card product-card--cupboard">
+                    <img class="product-card__img" src="img/product_1.jpg" alt="">
+                    <div class="product-card__content">
+                        <div class="product-card__price">
+                            <div class="product-card__name">Спальня Бася - 04</div>
+                            <div class="product-card__summ">
+                                15000 <span>руб.</span>
+                            </div>
+                        </div>
+                        <div class="product-card__size">
+                            816*500*478 (1 шт.)
+                        </div>
+                        <div class="product-card__buy">
+                            <div class="product-card__quantity">
+                                <input class="quantity-num input-reset" type="text" value="1">
+                                <button class="btn-reset product-card__btn"><span>+</span></button>
+                                <button class="btn-reset product-card__btn"><span>-</span></button>
+                            </div>
+                            <button class="product-card__basket btn-reset btn-basket">В корзину</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="catalog-slider__slide">
+                <div class="example-products__product product-card product-card--cupboard">
+                    <img class="product-card__img" src="img/product_1.jpg" alt="">
+                    <div class="product-card__content">
+                        <div class="product-card__price">
+                            <div class="product-card__name">Спальня Бася - 04</div>
+                            <div class="product-card__summ">
+                                15000 <span>руб.</span>
+                            </div>
+                        </div>
+                        <div class="product-card__size">
+                            816*500*478 (1 шт.)
+                        </div>
+                        <div class="product-card__buy">
+                            <div class="product-card__quantity">
+                                <input class="quantity-num input-reset" type="text" value="1">
+                                <button class="btn-reset product-card__btn"><span>+</span></button>
+                                <button class="btn-reset product-card__btn"><span>-</span></button>
+                            </div>
+                            <button class="product-card__basket btn-reset btn-basket">В корзину</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="catalog-slider__slick catalog-slider__slick--selected ">
+            <div class="catalog-slider__slide">
+                <div class="example-products__product product-card product-card--cupboard">
+                    <img class="product-card__img" src="img/product_1.jpg" alt="">
+                    <div class="product-card__content">
+                        <div class="product-card__price">
+                            <div class="product-card__name">Спальня Бася - 04</div>
+                            <div class="product-card__summ">
+                                15000 <span>руб.</span>
+                            </div>
+                        </div>
+                        <div class="product-card__size">
+                            816*500*478 (1 шт.)
+                        </div>
+                        <div class="product-card__buy">
+                            <div class="product-card__quantity">
+                                <input class="quantity-num input-reset" type="text" value="1">
+                                <button class="btn-reset product-card__btn"><span>+</span></button>
+                                <button class="btn-reset product-card__btn"><span>-</span></button>
+                            </div>
+                            <button class="product-card__basket btn-reset btn-basket">В корзину</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="catalog-slider__slide">
+                <div class="example-products__product product-card product-card--cupboard">
+                    <img class="product-card__img" src="img/product_1.jpg" alt="">
+                    <div class="product-card__content">
+                        <div class="product-card__price">
+                            <div class="product-card__name">Спальня Бася - 04</div>
+                            <div class="product-card__summ">
+                                15000 <span>руб.</span>
+                            </div>
+                        </div>
+                        <div class="product-card__size">
+                            816*500*478 (1 шт.)
+                        </div>
+                        <div class="product-card__buy">
+                            <div class="product-card__quantity">
+                                <input class="quantity-num input-reset" type="text" value="1">
+                                <button class="btn-reset product-card__btn"><span>+</span></button>
+                                <button class="btn-reset product-card__btn"><span>-</span></button>
+                            </div>
+                            <button class="product-card__basket btn-reset btn-basket">В корзину</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="catalog-slider__slide">
+                <div class="example-products__product product-card product-card--cupboard">
+                    <img class="product-card__img" src="img/product_1.jpg" alt="">
+                    <div class="product-card__content">
+                        <div class="product-card__price">
+                            <div class="product-card__name">Спальня Бася - 04</div>
+                            <div class="product-card__summ">
+                                15000 <span>руб.</span>
+                            </div>
+                        </div>
+                        <div class="product-card__size">
+                            816*500*478 (1 шт.)
+                        </div>
+                        <div class="product-card__buy">
+                            <div class="product-card__quantity">
+                                <input class="quantity-num input-reset" type="text" value="1">
+                                <button class="btn-reset product-card__btn"><span>+</span></button>
+                                <button class="btn-reset product-card__btn"><span>-</span></button>
+                            </div>
+                            <button class="product-card__basket btn-reset btn-basket">В корзину</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="catalog-slider__slide">
+                <div class="example-products__product product-card product-card--cupboard">
+                    <img class="product-card__img" src="img/product_1.jpg" alt="">
+                    <div class="product-card__content">
+                        <div class="product-card__price">
+                            <div class="product-card__name">Спальня Бася - 04</div>
+                            <div class="product-card__summ">
+                                15000 <span>руб.</span>
+                            </div>
+                        </div>
+                        <div class="product-card__size">
+                            816*500*478 (1 шт.)
+                        </div>
+                        <div class="product-card__buy">
+                            <div class="product-card__quantity">
+                                <input class="quantity-num input-reset" type="text" value="1">
+                                <button class="btn-reset product-card__btn"><span>+</span></button>
+                                <button class="btn-reset product-card__btn"><span>-</span></button>
+                            </div>
+                            <button class="product-card__basket btn-reset btn-basket">В корзину</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="catalog-slider__slide">
+                <div class="example-products__product product-card product-card--cupboard">
+                    <img class="product-card__img" src="img/product_1.jpg" alt="">
+                    <div class="product-card__content">
+                        <div class="product-card__price">
+                            <div class="product-card__name">Спальня Бася - 04</div>
+                            <div class="product-card__summ">
+                                15000 <span>руб.</span>
+                            </div>
+                        </div>
+                        <div class="product-card__size">
+                            816*500*478 (1 шт.)
+                        </div>
+                        <div class="product-card__buy">
+                            <div class="product-card__quantity">
+                                <input class="quantity-num input-reset" type="text" value="1">
+                                <button class="btn-reset product-card__btn"><span>+</span></button>
+                                <button class="btn-reset product-card__btn"><span>-</span></button>
+                            </div>
+                            <button class="product-card__basket btn-reset btn-basket">В корзину</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="catalog-slider__slide">
+                <div class="example-products__product product-card product-card--cupboard">
+                    <img class="product-card__img" src="img/product_1.jpg" alt="">
+                    <div class="product-card__content">
+                        <div class="product-card__price">
+                            <div class="product-card__name">Спальня Бася - 04</div>
+                            <div class="product-card__summ">
+                                15000 <span>руб.</span>
+                            </div>
+                        </div>
+                        <div class="product-card__size">
+                            816*500*478 (1 шт.)
+                        </div>
+                        <div class="product-card__buy">
+                            <div class="product-card__quantity">
+                                <input class="quantity-num input-reset" type="text" value="1">
+                                <button class="btn-reset product-card__btn"><span>+</span></button>
+                                <button class="btn-reset product-card__btn"><span>-</span></button>
+                            </div>
+                            <button class="product-card__basket btn-reset btn-basket">В корзину</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="catalog-slider__slide">
+                <div class="example-products__product product-card product-card--cupboard">
+                    <img class="product-card__img" src="img/product_1.jpg" alt="">
+                    <div class="product-card__content">
+                        <div class="product-card__price">
+                            <div class="product-card__name">Спальня Бася - 04</div>
+                            <div class="product-card__summ">
+                                15000 <span>руб.</span>
+                            </div>
+                        </div>
+                        <div class="product-card__size">
+                            816*500*478 (1 шт.)
+                        </div>
+                        <div class="product-card__buy">
+                            <div class="product-card__quantity">
+                                <input class="quantity-num input-reset" type="text" value="1">
+                                <button class="btn-reset product-card__btn"><span>+</span></button>
+                                <button class="btn-reset product-card__btn"><span>-</span></button>
+                            </div>
+                            <button class="product-card__basket btn-reset btn-basket">В корзину</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="catalog-slider__slick catalog-slider__slick--selected ">
+            <div class="catalog-slider__slide">
+                <div class="example-products__product product-card product-card--cupboard">
+                    <img class="product-card__img" src="img/product_1.jpg" alt="">
+                    <div class="product-card__content">
+                        <div class="product-card__price">
+                            <div class="product-card__name">Спальня Бася - 04</div>
+                            <div class="product-card__summ">
+                                15000 <span>руб.</span>
+                            </div>
+                        </div>
+                        <div class="product-card__size">
+                            816*500*478 (1 шт.)
+                        </div>
+                        <div class="product-card__buy">
+                            <div class="product-card__quantity">
+                                <input class="quantity-num input-reset" type="text" value="1">
+                                <button class="btn-reset product-card__btn"><span>+</span></button>
+                                <button class="btn-reset product-card__btn"><span>-</span></button>
+                            </div>
+                            <button class="product-card__basket btn-reset btn-basket">В корзину</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="catalog-slider__slide">
+                <div class="example-products__product product-card product-card--cupboard">
+                    <img class="product-card__img" src="img/product_1.jpg" alt="">
+                    <div class="product-card__content">
+                        <div class="product-card__price">
+                            <div class="product-card__name">Спальня Бася - 04</div>
+                            <div class="product-card__summ">
+                                15000 <span>руб.</span>
+                            </div>
+                        </div>
+                        <div class="product-card__size">
+                            816*500*478 (1 шт.)
+                        </div>
+                        <div class="product-card__buy">
+                            <div class="product-card__quantity">
+                                <input class="quantity-num input-reset" type="text" value="1">
+                                <button class="btn-reset product-card__btn"><span>+</span></button>
+                                <button class="btn-reset product-card__btn"><span>-</span></button>
+                            </div>
+                            <button class="product-card__basket btn-reset btn-basket">В корзину</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="catalog-slider__slide">
+                <div class="example-products__product product-card product-card--cupboard">
+                    <img class="product-card__img" src="img/product_1.jpg" alt="">
+                    <div class="product-card__content">
+                        <div class="product-card__price">
+                            <div class="product-card__name">Спальня Бася - 04</div>
+                            <div class="product-card__summ">
+                                15000 <span>руб.</span>
+                            </div>
+                        </div>
+                        <div class="product-card__size">
+                            816*500*478 (1 шт.)
+                        </div>
+                        <div class="product-card__buy">
+                            <div class="product-card__quantity">
+                                <input class="quantity-num input-reset" type="text" value="1">
+                                <button class="btn-reset product-card__btn"><span>+</span></button>
+                                <button class="btn-reset product-card__btn"><span>-</span></button>
+                            </div>
+                            <button class="product-card__basket btn-reset btn-basket">В корзину</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="catalog-slider__slide">
+                <div class="example-products__product product-card product-card--cupboard">
+                    <img class="product-card__img" src="img/product_1.jpg" alt="">
+                    <div class="product-card__content">
+                        <div class="product-card__price">
+                            <div class="product-card__name">Спальня Бася - 04</div>
+                            <div class="product-card__summ">
+                                15000 <span>руб.</span>
+                            </div>
+                        </div>
+                        <div class="product-card__size">
+                            816*500*478 (1 шт.)
+                        </div>
+                        <div class="product-card__buy">
+                            <div class="product-card__quantity">
+                                <input class="quantity-num input-reset" type="text" value="1">
+                                <button class="btn-reset product-card__btn"><span>+</span></button>
+                                <button class="btn-reset product-card__btn"><span>-</span></button>
+                            </div>
+                            <button class="product-card__basket btn-reset btn-basket">В корзину</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="catalog-slider__slide">
+                <div class="example-products__product product-card product-card--cupboard">
+                    <img class="product-card__img" src="img/product_1.jpg" alt="">
+                    <div class="product-card__content">
+                        <div class="product-card__price">
+                            <div class="product-card__name">Спальня Бася - 04</div>
+                            <div class="product-card__summ">
+                                15000 <span>руб.</span>
+                            </div>
+                        </div>
+                        <div class="product-card__size">
+                            816*500*478 (1 шт.)
+                        </div>
+                        <div class="product-card__buy">
+                            <div class="product-card__quantity">
+                                <input class="quantity-num input-reset" type="text" value="1">
+                                <button class="btn-reset product-card__btn"><span>+</span></button>
+                                <button class="btn-reset product-card__btn"><span>-</span></button>
+                            </div>
+                            <button class="product-card__basket btn-reset btn-basket">В корзину</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="catalog-slider__slide">
+                <div class="example-products__product product-card product-card--cupboard">
+                    <img class="product-card__img" src="img/product_1.jpg" alt="">
+                    <div class="product-card__content">
+                        <div class="product-card__price">
+                            <div class="product-card__name">Спальня Бася - 04</div>
+                            <div class="product-card__summ">
+                                15000 <span>руб.</span>
+                            </div>
+                        </div>
+                        <div class="product-card__size">
+                            816*500*478 (1 шт.)
+                        </div>
+                        <div class="product-card__buy">
+                            <div class="product-card__quantity">
+                                <input class="quantity-num input-reset" type="text" value="1">
+                                <button class="btn-reset product-card__btn"><span>+</span></button>
+                                <button class="btn-reset product-card__btn"><span>-</span></button>
+                            </div>
+                            <button class="product-card__basket btn-reset btn-basket">В корзину</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="catalog-slider__slide">
+                <div class="example-products__product product-card product-card--cupboard">
+                    <img class="product-card__img" src="img/product_1.jpg" alt="">
+                    <div class="product-card__content">
+                        <div class="product-card__price">
+                            <div class="product-card__name">Спальня Бася - 04</div>
+                            <div class="product-card__summ">
+                                15000 <span>руб.</span>
+                            </div>
+                        </div>
+                        <div class="product-card__size">
+                            816*500*478 (1 шт.)
+                        </div>
+                        <div class="product-card__buy">
+                            <div class="product-card__quantity">
+                                <input class="quantity-num input-reset" type="text" value="1">
+                                <button class="btn-reset product-card__btn"><span>+</span></button>
+                                <button class="btn-reset product-card__btn"><span>-</span></button>
+                            </div>
+                            <button class="product-card__basket btn-reset btn-basket">В корзину</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="catalog-slider__slick catalog-slider__slick--selected ">
+            <div class="catalog-slider__slide">
+                <div class="example-products__product product-card product-card--cupboard">
+                    <img class="product-card__img" src="img/product_1.jpg" alt="">
+                    <div class="product-card__content">
+                        <div class="product-card__price">
+                            <div class="product-card__name">Спальня Бася - 04</div>
+                            <div class="product-card__summ">
+                                15000 <span>руб.</span>
+                            </div>
+                        </div>
+                        <div class="product-card__size">
+                            816*500*478 (1 шт.)
+                        </div>
+                        <div class="product-card__buy">
+                            <div class="product-card__quantity">
+                                <input class="quantity-num input-reset" type="text" value="1">
+                                <button class="btn-reset product-card__btn"><span>+</span></button>
+                                <button class="btn-reset product-card__btn"><span>-</span></button>
+                            </div>
+                            <button class="product-card__basket btn-reset btn-basket">В корзину</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="catalog-slider__slide">
+                <div class="example-products__product product-card product-card--cupboard">
+                    <img class="product-card__img" src="img/product_1.jpg" alt="">
+                    <div class="product-card__content">
+                        <div class="product-card__price">
+                            <div class="product-card__name">Спальня Бася - 04</div>
+                            <div class="product-card__summ">
+                                15000 <span>руб.</span>
+                            </div>
+                        </div>
+                        <div class="product-card__size">
+                            816*500*478 (1 шт.)
+                        </div>
+                        <div class="product-card__buy">
+                            <div class="product-card__quantity">
+                                <input class="quantity-num input-reset" type="text" value="1">
+                                <button class="btn-reset product-card__btn"><span>+</span></button>
+                                <button class="btn-reset product-card__btn"><span>-</span></button>
+                            </div>
+                            <button class="product-card__basket btn-reset btn-basket">В корзину</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="catalog-slider__slide">
+                <div class="example-products__product product-card product-card--cupboard">
+                    <img class="product-card__img" src="img/product_1.jpg" alt="">
+                    <div class="product-card__content">
+                        <div class="product-card__price">
+                            <div class="product-card__name">Спальня Бася - 04</div>
+                            <div class="product-card__summ">
+                                15000 <span>руб.</span>
+                            </div>
+                        </div>
+                        <div class="product-card__size">
+                            816*500*478 (1 шт.)
+                        </div>
+                        <div class="product-card__buy">
+                            <div class="product-card__quantity">
+                                <input class="quantity-num input-reset" type="text" value="1">
+                                <button class="btn-reset product-card__btn"><span>+</span></button>
+                                <button class="btn-reset product-card__btn"><span>-</span></button>
+                            </div>
+                            <button class="product-card__basket btn-reset btn-basket">В корзину</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="catalog-slider__slide">
+                <div class="example-products__product product-card product-card--cupboard">
+                    <img class="product-card__img" src="img/product_1.jpg" alt="">
+                    <div class="product-card__content">
+                        <div class="product-card__price">
+                            <div class="product-card__name">Спальня Бася - 04</div>
+                            <div class="product-card__summ">
+                                15000 <span>руб.</span>
+                            </div>
+                        </div>
+                        <div class="product-card__size">
+                            816*500*478 (1 шт.)
+                        </div>
+                        <div class="product-card__buy">
+                            <div class="product-card__quantity">
+                                <input class="quantity-num input-reset" type="text" value="1">
+                                <button class="btn-reset product-card__btn"><span>+</span></button>
+                                <button class="btn-reset product-card__btn"><span>-</span></button>
+                            </div>
+                            <button class="product-card__basket btn-reset btn-basket">В корзину</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="catalog-slider__slide">
+                <div class="example-products__product product-card product-card--cupboard">
+                    <img class="product-card__img" src="img/product_1.jpg" alt="">
+                    <div class="product-card__content">
+                        <div class="product-card__price">
+                            <div class="product-card__name">Спальня Бася - 04</div>
+                            <div class="product-card__summ">
+                                15000 <span>руб.</span>
+                            </div>
+                        </div>
+                        <div class="product-card__size">
+                            816*500*478 (1 шт.)
+                        </div>
+                        <div class="product-card__buy">
+                            <div class="product-card__quantity">
+                                <input class="quantity-num input-reset" type="text" value="1">
+                                <button class="btn-reset product-card__btn"><span>+</span></button>
+                                <button class="btn-reset product-card__btn"><span>-</span></button>
+                            </div>
+                            <button class="product-card__basket btn-reset btn-basket">В корзину</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="catalog-slider__slide">
+                <div class="example-products__product product-card product-card--cupboard">
+                    <img class="product-card__img" src="img/product_1.jpg" alt="">
+                    <div class="product-card__content">
+                        <div class="product-card__price">
+                            <div class="product-card__name">Спальня Бася - 04</div>
+                            <div class="product-card__summ">
+                                15000 <span>руб.</span>
+                            </div>
+                        </div>
+                        <div class="product-card__size">
+                            816*500*478 (1 шт.)
+                        </div>
+                        <div class="product-card__buy">
+                            <div class="product-card__quantity">
+                                <input class="quantity-num input-reset" type="text" value="1">
+                                <button class="btn-reset product-card__btn"><span>+</span></button>
+                                <button class="btn-reset product-card__btn"><span>-</span></button>
+                            </div>
+                            <button class="product-card__basket btn-reset btn-basket">В корзину</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="catalog-slider__slide">
+                <div class="example-products__product product-card product-card--cupboard">
+                    <img class="product-card__img" src="img/product_1.jpg" alt="">
+                    <div class="product-card__content">
+                        <div class="product-card__price">
+                            <div class="product-card__name">Спальня Бася - 04</div>
+                            <div class="product-card__summ">
+                                15000 <span>руб.</span>
+                            </div>
+                        </div>
+                        <div class="product-card__size">
+                            816*500*478 (1 шт.)
+                        </div>
+                        <div class="product-card__buy">
+                            <div class="product-card__quantity">
+                                <input class="quantity-num input-reset" type="text" value="1">
+                                <button class="btn-reset product-card__btn"><span>+</span></button>
+                                <button class="btn-reset product-card__btn"><span>-</span></button>
+                            </div>
+                            <button class="product-card__basket btn-reset btn-basket">В корзину</button>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -661,7 +2869,7 @@
                         </div>
                         <div class="product-card__buy">
                             <div class="product-card__quantity">
-                                <span class="quantity-num">1</span>
+                                <input class="quantity-num input-reset" type="text" value="1">
                                 <button class="btn-reset product-card__btn"><span>+</span></button>
                                 <button class="btn-reset product-card__btn"><span>-</span></button>
                             </div>
@@ -698,7 +2906,7 @@
                         </div>
                         <div class="product-card__buy">
                             <div class="product-card__quantity">
-                                <span class="quantity-num">1</span>
+                                <input class="quantity-num input-reset" type="text" value="1">
                                 <button class="btn-reset product-card__btn"><span>+</span></button>
                                 <button class="btn-reset product-card__btn"><span>-</span></button>
                             </div>
@@ -760,7 +2968,7 @@
                         </div>
                         <div class="product-card__buy">
                             <div class="product-card__quantity">
-                                <span class="quantity-num">1</span>
+                                <input class="quantity-num input-reset" type="text" value="1">
                                 <button class="btn-reset product-card__btn"><span>+</span></button>
                                 <button class="btn-reset product-card__btn"><span>-</span></button>
                             </div>
@@ -797,7 +3005,7 @@
                         </div>
                         <div class="product-card__buy">
                             <div class="product-card__quantity">
-                                <span class="quantity-num">1</span>
+                                <input class="quantity-num input-reset" type="text" value="1">
                                 <button class="btn-reset product-card__btn"><span>+</span></button>
                                 <button class="btn-reset product-card__btn"><span>-</span></button>
                             </div>
@@ -860,7 +3068,7 @@
                         </div>
                         <div class="product-card__buy">
                             <div class="product-card__quantity">
-                                <span class="quantity-num">1</span>
+                                <input class="quantity-num input-reset" type="text" value="1">
                                 <button class="btn-reset product-card__btn"><span>+</span></button>
                                 <button class="btn-reset product-card__btn"><span>-</span></button>
                             </div>
@@ -897,7 +3105,7 @@
                         </div>
                         <div class="product-card__buy">
                             <div class="product-card__quantity">
-                                <span class="quantity-num">1</span>
+                                <input class="quantity-num input-reset" type="text" value="1">
                                 <button class="btn-reset product-card__btn"><span>+</span></button>
                                 <button class="btn-reset product-card__btn"><span>-</span></button>
                             </div>
@@ -959,7 +3167,7 @@
                         </div>
                         <div class="product-card__buy">
                             <div class="product-card__quantity">
-                                <span class="quantity-num">1</span>
+                                <input class="quantity-num input-reset" type="text" value="1">
                                 <button class="btn-reset product-card__btn"><span>+</span></button>
                                 <button class="btn-reset product-card__btn"><span>-</span></button>
                             </div>
@@ -996,7 +3204,7 @@
                         </div>
                         <div class="product-card__buy">
                             <div class="product-card__quantity">
-                                <span class="quantity-num">1</span>
+                                <input class="quantity-num input-reset" type="text" value="1">
                                 <button class="btn-reset product-card__btn"><span>+</span></button>
                                 <button class="btn-reset product-card__btn"><span>-</span></button>
                             </div>
@@ -1058,7 +3266,7 @@
                         </div>
                         <div class="product-card__buy">
                             <div class="product-card__quantity">
-                                <span class="quantity-num">1</span>
+                                <input class="quantity-num input-reset" type="text" value="1">
                                 <button class="btn-reset product-card__btn"><span>+</span></button>
                                 <button class="btn-reset product-card__btn"><span>-</span></button>
                             </div>
@@ -1095,7 +3303,7 @@
                         </div>
                         <div class="product-card__buy">
                             <div class="product-card__quantity">
-                                <span class="quantity-num">1</span>
+                                <input class="quantity-num input-reset" type="text" value="1">
                                 <button class="btn-reset product-card__btn"><span>+</span></button>
                                 <button class="btn-reset product-card__btn"><span>-</span></button>
                             </div>
@@ -1159,7 +3367,7 @@
                         </div>
                         <div class="product-card__buy">
                             <div class="product-card__quantity">
-                                <span class="quantity-num">1</span>
+                                <input class="quantity-num input-reset" type="text" value="1">
                                 <button class="btn-reset product-card__btn"><span>+</span></button>
                                 <button class="btn-reset product-card__btn"><span>-</span></button>
                             </div>
@@ -1196,7 +3404,7 @@
                         </div>
                         <div class="product-card__buy">
                             <div class="product-card__quantity">
-                                <span class="quantity-num">1</span>
+                                <input class="quantity-num input-reset" type="text" value="1">
                                 <button class="btn-reset product-card__btn"><span>+</span></button>
                                 <button class="btn-reset product-card__btn"><span>-</span></button>
                             </div>
@@ -1257,7 +3465,7 @@
                         </div>
                         <div class="product-card__buy">
                             <div class="product-card__quantity">
-                                <span class="quantity-num">1</span>
+                                <input class="quantity-num input-reset" type="text" value="1">
                                 <button class="btn-reset product-card__btn"><span>+</span></button>
                                 <button class="btn-reset product-card__btn"><span>-</span></button>
                             </div>
@@ -1294,7 +3502,7 @@
                         </div>
                         <div class="product-card__buy">
                             <div class="product-card__quantity">
-                                <span class="quantity-num">1</span>
+                                <input class="quantity-num input-reset" type="text" value="1">
                                 <button class="btn-reset product-card__btn"><span>+</span></button>
                                 <button class="btn-reset product-card__btn"><span>-</span></button>
                             </div>
@@ -1358,7 +3566,7 @@
                         </div>
                         <div class="product-card__buy">
                             <div class="product-card__quantity">
-                                <span class="quantity-num">1</span>
+                                <input class="quantity-num input-reset" type="text" value="1">
                                 <button class="btn-reset product-card__btn"><span>+</span></button>
                                 <button class="btn-reset product-card__btn"><span>-</span></button>
                             </div>
@@ -1395,7 +3603,7 @@
                         </div>
                         <div class="product-card__buy">
                             <div class="product-card__quantity">
-                                <span class="quantity-num">1</span>
+                                <input class="quantity-num input-reset" type="text" value="1">
                                 <button class="btn-reset product-card__btn"><span>+</span></button>
                                 <button class="btn-reset product-card__btn"><span>-</span></button>
                             </div>
@@ -1459,7 +3667,7 @@
                         </div>
                         <div class="product-card__buy">
                             <div class="product-card__quantity">
-                                <span class="quantity-num">1</span>
+                                <input class="quantity-num input-reset" type="text" value="1">
                                 <button class="btn-reset product-card__btn"><span>+</span></button>
                                 <button class="btn-reset product-card__btn"><span>-</span></button>
                             </div>
@@ -1496,7 +3704,7 @@
                         </div>
                         <div class="product-card__buy">
                             <div class="product-card__quantity">
-                                <span class="quantity-num">1</span>
+                                <input class="quantity-num input-reset" type="text" value="1">
                                 <button class="btn-reset product-card__btn"><span>+</span></button>
                                 <button class="btn-reset product-card__btn"><span>-</span></button>
                             </div>
@@ -1679,6 +3887,7 @@
     integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
 <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/ion-rangeslider/2.3.1/js/ion.rangeSlider.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.umd.js"></script>
 <script src="js/script.min.js"></script>
 </body>
 

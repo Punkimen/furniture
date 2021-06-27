@@ -70,12 +70,15 @@ $('.catalog-slider__slick').slick({
         {
             breakpoint: 568,
             settings: {
+                infinite: false,
                 slidesToShow: 1,
                 slidesToScroll: 1,
             }
         }
     ]
 })
+
+
 // slider end
 
 // costum select 
@@ -143,68 +146,126 @@ $('.catalog-filter__title').on('click', function () {
 // filter end
 
 // map
-
-ymaps.ready(function () {
-    var myMap = new ymaps.Map('ymap', {
-        center: [55.751574, 37.573856],
-        zoom: 9
-    }, {
-        searchControlProvider: 'yandex#search'
-    }),
-
-        // Creating a content layout.
-        MyIconContentLayout = ymaps.templateLayoutFactory.createClass(
-            '<div style="color: #FFFFFF; font-weight: bold;">$[properties.iconContent]</div>'
-        ),
-
-        myPlacemark = new ymaps.Placemark(myMap.getCenter(), {
-            balloonContent: 'This is a pretty placemark'
+const map = document.querySelector('#ymap')
+if (map) {
+    ymaps.ready(function () {
+        var myMap = new ymaps.Map('ymap', {
+            center: [55.751574, 37.573856],
+            zoom: 9
         }, {
-            /**
-             * Options.
-             * You must specify this type of layout.
-             */
-            iconLayout: 'default#image',
-            // Custom image for the placemark icon.
-            iconImageHref: '../img/map-marker.png',
-            // The size of the placemark.
-            iconImageSize: [30, 42],
-            /**
-             * The offset of the upper left corner of the icon relative
-             * to its "tail" (the anchor point).
-             */
-            iconImageOffset: [-5, -38]
+            searchControlProvider: 'yandex#search'
         }),
 
-        myPlacemarkWithContent = new ymaps.Placemark([55.661574, 37.573856], {
-            hintContent: 'A custom placemark icon with contents',
-            balloonContent: 'This one — for Christmas',
-            iconContent: '12'
-        }, {
-            /**
-             * Options.
-             * You must specify this type of layout.
-             */
-            iconLayout: 'default#imageWithContent',
-            // Custom image for the placemark icon.
-            iconImageHref: 'images/ball.png',
-            // The size of the placemark.
-            iconImageSize: [48, 48],
-            /**
-             * The offset of the upper left corner of the icon relative
-             * to its "tail" (the anchor point).
-             */
-            iconImageOffset: [-24, -24],
-            // Offset of the layer with content relative to the layer with the image.
-            iconContentOffset: [15, 15],
-            // Content layout.
-            iconContentLayout: MyIconContentLayout
-        });
+            // Creating a content layout.
+            MyIconContentLayout = ymaps.templateLayoutFactory.createClass(
+                '<div style="color: #FFFFFF; font-weight: bold;">$[properties.iconContent]</div>'
+            ),
 
-    myMap.geoObjects
-        .add(myPlacemark)
-        .add(myPlacemarkWithContent);
+            myPlacemark = new ymaps.Placemark(myMap.getCenter(), {
+                balloonContent: 'This is a pretty placemark'
+            }, {
+                /**
+                 * Options.
+                 * You must specify this type of layout.
+                 */
+                iconLayout: 'default#image',
+                // Custom image for the placemark icon.
+                iconImageHref: '../img/map-marker.png',
+                // The size of the placemark.
+                iconImageSize: [30, 42],
+                /**
+                 * The offset of the upper left corner of the icon relative
+                 * to its "tail" (the anchor point).
+                 */
+                iconImageOffset: [-5, -38]
+            }),
+
+            myPlacemarkWithContent = new ymaps.Placemark([55.661574, 37.573856], {
+                hintContent: 'A custom placemark icon with contents',
+                balloonContent: 'This one — for Christmas',
+                iconContent: '12'
+            }, {
+                /**
+                 * Options.
+                 * You must specify this type of layout.
+                 */
+                iconLayout: 'default#imageWithContent',
+                // Custom image for the placemark icon.
+                iconImageHref: '../img/map-marker.png',
+                // The size of the placemark.
+                iconImageSize: [48, 48],
+                /**
+                 * The offset of the upper left corner of the icon relative
+                 * to its "tail" (the anchor point).
+                 */
+                iconImageOffset: [-24, -24],
+                // Offset of the layer with content relative to the layer with the image.
+                iconContentOffset: [15, 15],
+                // Content layout.
+                iconContentLayout: MyIconContentLayout
+            });
+
+        myMap.geoObjects
+            .add(myPlacemark)
+            .add(myPlacemarkWithContent);
+    });
+}
+
+
+
+//map end
+
+// tabs
+const recomendedSelectTabs = $('.new-recomended .costum-select__item')
+const recomendendTabs = $('.new-recomended .recomended__elem')
+const catalogItems = $('.new-recomended .catalog-slider__slick--selected')
+recomendendTabs.on('click', function () {
+    $(this).addClass('active').siblings().removeClass('active')
+    let index = $(this).index()
+    catalogItems.removeClass('current')
+    catalogItems.eq(index).addClass('current')
+    catalogItems.eq(index).slick('reinit')
+})
+recomendedSelectTabs.on('click', function () {
+    $(this).addClass('active').siblings().removeClass('active')
+    let index = $(this).index()
+    catalogItems.removeClass('current')
+    catalogItems.eq(index).addClass('current')
+    catalogItems.eq(index).slick('reinit')
+})
+
+
+const recomendedSelectTabs2 = $('.new-hits .costum-select__item')
+const recomendendTabs2 = $('.new-hits .recomended__elem')
+const catalogItems2 = $('.new-hits .catalog-slider__slick--selected')
+recomendendTabs2.on('click', function () {
+    $(this).addClass('active').siblings().removeClass('active')
+    let index = $(this).index()
+    catalogItems2.removeClass('current')
+    catalogItems2.eq(index).addClass('current')
+    catalogItems2.eq(index).slick('reinit')
+})
+recomendedSelectTabs2.on('click', function () {
+    $(this).addClass('active').siblings().removeClass('active')
+    let index = $(this).index()
+    catalogItems2.removeClass('current')
+    catalogItems2.eq(index).addClass('current')
+    catalogItems2.eq(index).slick('reinit')
+})
+// tabs
+// quantity only-num
+$(".quantity-num").keyup(function (e) {
+    this.value = this.value.replace(/[^0-9\.]/g, '');
 });
 
+// gallery
 
-// map end
+const smallPhoto = $('.card-section__others-photo')
+smallPhoto.on('click', function () {
+    $(this).addClass('active').siblings().removeClass('active')
+    let src = $(this).data('src')
+    let img = $('.card-section__photo img:first')
+    img.attr('src', src)
+})
+
+// gallery end

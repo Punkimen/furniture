@@ -9,6 +9,7 @@
 <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
 <link rel="stylesheet"
     href="https://cdnjs.cloudflare.com/ajax/libs/ion-rangeslider/2.3.1/css/ion.rangeSlider.min.css" />
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.css" />
 <link rel="stylesheet" href="css/vendor.min.css">
 <link rel="stylesheet" href="css/style.min.css">
 
@@ -131,10 +132,20 @@
         <div class="card-section__product">
             <div class="card-section__photos">
                 <div class="card-section__photo card-section__photo--centered">
-                    <img class="photo-centered" src="img/big-photo_3.jpg" alt="">
+                    <img class="photo-centered" src="img/big-photo_3.jpg" data-fancybox="gallery" alt="">
+                    <div class="card-section__gallery">
+                        <img class="photo-centered" src="img/big-photo_4.jpg" data-fancybox="gallery" alt="">
+                        <img class="photo-centered" src="img/big-photo_4.jpg" data-fancybox="gallery" alt="">
+                    </div>
                 </div>
                 <div class="card-section__others">
-                    <div class="card-section__others-photo active">
+                    <div class="card-section__others-photo active" data-src='img/big-photo_3.jpg'>
+                        <img src="img/small-photo_5.jpg" alt="">
+                    </div>
+                    <div class="card-section__others-photo" data-src='img/big-photo.jpg'>
+                        <img src="img/small-photo_5.jpg" alt="">
+                    </div>
+                    <div class="card-section__others-photo" data-src='img/big-photo_4.jpg'>
                         <img src="img/small-photo_5.jpg" alt="">
                     </div>
                 </div>
@@ -177,7 +188,7 @@
                     <div class="card-descr__btns">
                         <div class="product-card__buy">
                             <div class="product-card__quantity">
-                                <span class="quantity-num">1</span>
+                                <input class="quantity-num input-reset" type="text" value="1">
                                 <button class="btn-reset product-card__btn"><span>+</span></button>
                                 <button class="btn-reset product-card__btn"><span>-</span></button>
                             </div>
@@ -341,6 +352,7 @@
     integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
 <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/ion-rangeslider/2.3.1/js/ion.rangeSlider.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.umd.js"></script>
 <script src="js/script.min.js"></script>
 </body>
 
